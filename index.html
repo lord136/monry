@@ -501,7 +501,7 @@
         const publicConfig = {
             qrCodeUrl: 'https://placehold.co/220x220/png?text=Add+Your+QR',
             instagramHandle: '@yourinstagram',
-            unlockPrice: '499'
+            unlockPrice: '₹499'
         };
 
         const strategiesTemplate = [
@@ -562,14 +562,16 @@
 
         async function loadConfig() {
             try {
-                const response = await fetch(`${API_BASE_URL}/api/config`);
+                const response = await fetchWithTimeout(`${API_BASE_URL}/api/config`, {
+                    timeoutMs: 5000
+                });
 
                 if (!response.ok) {
                     return;
                 }
 
                 const data = await response.json();
-                Object.assign(publicConfig, data);
+                applyPublicConfig(data);
             } catch (error) {
                 // Local static fallback remains usable even when the backend is unreachable.
             }
@@ -593,26 +595,27 @@
             let source = 'fallback';
 
             try {
-                const response = await fetch(`${API_BASE_URL}/api/plan`, {
+                const response = await fetchWithTimeout(`${API_BASE_URL}/api/plan`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ businessIdea })
+                    body: JSON.stringify({ businessIdea }),
+                    timeoutMs: 12000
                 });
 
                 if (!response.ok) {
-                    throw new Error('OpenAI plan request failed.');
+                    throw new Error('AI plan request failed.');
                 }
 
                 const data = await response.json();
 
                 if (Array.isArray(data.steps) && data.steps.length === 9) {
                     steps = data.steps;
-                    source = data.source || 'openai';
+                    source = data.source || 'ai';
 
                     if (data.config) {
-                        Object.assign(publicConfig, data.config);
+                        applyPublicConfig(data.config);
                     }
                 } else {
                     throw new Error('Invalid AI response shape.');
@@ -624,7 +627,7 @@
             loading.classList.remove('active');
             results.classList.add('active');
 
-            if (source === 'openai') {
+            if (source !== 'fallback') {
                 resultNote.textContent = 'Personalized AI plan generated from your business idea.';
             } else {
                 resultNote.textContent = 'AI server unavailable, so the static backup plan is shown.';
@@ -709,6 +712,29 @@
             heroSection.style.display = 'block';
             businessInput.value = '';
             businessInput.focus();
+        }
+
+        function applyPublicConfig(config) {
+            Object.assign(publicConfig, config);
+
+            if (publicConfig.qrCodeUrl && publicConfig.qrCodeUrl.startsWith('/') && API_BASE_URL) {
+                publicConfig.qrCodeUrl = `${API_BASE_URL}${publicConfig.qrCodeUrl}`;
+            }
+        }
+
+        async function fetchWithTimeout(url, options = {}) {
+            const { timeoutMs = 10000, ...fetchOptions } = options;
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+            try {
+                return await fetch(url, {
+                    ...fetchOptions,
+                    signal: controller.signal
+                });
+            } finally {
+                clearTimeout(timeoutId);
+            }
         }
 
         function escapeHtml(value) {
