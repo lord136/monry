@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business 10X</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #FFFBF0 0%, #FFF9E6 50%, #FFFEF8 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .hero {
+            margin-bottom: 60px;
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 64px;
+            font-weight: 800;
+            letter-spacing: -2px;
+            background: linear-gradient(135deg, #D4A017 0%, #FFD700 50%, #FFA500 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+            text-shadow: 0 4px 20px rgba(255, 215, 0, 0.15);
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #8B7355;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+
+        .input-section {
+            margin-bottom: 80px;
+            opacity: 0;
+            animation: fadeIn 0.8s ease 0.2s forwards;
+        }
+
+        .input-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 22px 140px 22px 32px;
+            font-size: 17px;
+            font-weight: 500;
+            border: 2px solid #FFE5A0;
+            border-radius: 60px;
+            outline: none;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            background: linear-gradient(to right, #FFFFFF 0%, #FFFEF8 100%);
+            font-family: 'Inter', sans-serif;
+            color: #2C2416;
+            letter-spacing: 0.3px;
+            box-shadow: 0 2px 12px rgba(255, 215, 0, 0.08);
+        }
+
+        .input-field:focus {
+            border-color: #FFD700;
+            background: #FFFFFF;
+            box-shadow: 0 6px 32px rgba(255, 215, 0, 0.25), 0 0 0 4px rgba(255, 215, 0, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .input-field::placeholder {
+            color: #C4A962;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+        }
+
+        .input-controls {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            align-items: center;
+        }
+
+        .analyze-btn {
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            color: #2C2416;
+            border: none;
+            padding: 14px 36px;
+            border-radius: 60px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 20px rgba(255, 165, 0, 0.35);
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .analyze-btn:hover {
+            background: linear-gradient(135deg, #FFC700 0%, #FF9500 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(255, 165, 0, 0.45);
+        }
+
+        .analyze-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 4px 16px rgba(255, 165, 0, 0.3);
+        }
+
+        .loading {
+            display: none;
+            margin: 60px 0;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #FFE5A0;
+            border-top-color: #FFD700;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 16px;
+            color: #8B7355;
+            font-weight: 500;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results.active {
+            display: block;
+        }
+
+        .results-header {
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #D4A017 0%, #FFD700 50%, #FFA500 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 18px;
+            letter-spacing: -1px;
+        }
+
+        .result-note {
+            min-height: 22px;
+            margin-bottom: 30px;
+            color: #8B7355;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .steps-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .step-card {
+            background: #FFFFFF;
+            border: 2px solid #FFE5A0;
+            border-radius: 16px;
+            padding: 24px 28px;
+            text-align: left;
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .step-card.animate {
+            animation: slideUp 0.5s ease forwards;
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .step-card:hover {
+            border-color: #FFD700;
+            box-shadow: 0 8px 30px rgba(255, 215, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .step-number {
+            font-size: 13px;
+            font-weight: 700;
+            color: #D4A017;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .step-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2C2416;
+            margin-bottom: 10px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .step-description {
+            font-size: 15px;
+            color: #6B5D4F;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        .locked-card {
+            background: linear-gradient(135deg, #2C2416 0%, #3D3120 100%);
+            border: 2px solid #D4A017;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .locked-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700, #D4A017);
+            border-radius: 16px;
+            z-index: -1;
+            opacity: 0.4;
+            animation: pulse 2s ease-in-out infinite;
+            background-size: 200% 200%;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 0.4;
+                background-position: 0% 50%;
+            }
+            50% {
+                opacity: 0.6;
+                background-position: 100% 50%;
+            }
+        }
+
+        .locked-card .step-number {
+            color: #FFD700;
+        }
+
+        .locked-card .step-title {
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .lock-icon {
+            font-size: 22px;
+            filter: drop-shadow(0 2px 8px rgba(255, 215, 0, 0.5));
+        }
+
+        .locked-card .step-description {
+            color: #E5D5B7;
+            margin-bottom: 30px;
+        }
+
+        .payment-section {
+            background: rgba(212, 160, 23, 0.08);
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 20px;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+        }
+
+        .qr-code {
+            background: #FFFFFF;
+            padding: 20px;
+            border-radius: 12px;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0 8px 30px rgba(255, 215, 0, 0.4);
+            border: 2px solid #FFD700;
+        }
+
+        .qr-code img {
+            width: 220px;
+            height: 220px;
+            display: block;
+            object-fit: cover;
+        }
+
+        .payment-text {
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFD700;
+            margin-bottom: 15px;
+            letter-spacing: 0.3px;
+        }
+
+        .payment-instruction {
+            font-size: 14px;
+            color: #FFF8E1;
+            line-height: 1.7;
+            margin-top: 20px;
+            padding: 16px;
+            background: rgba(255, 215, 0, 0.12);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+        }
+
+        .payment-instruction strong {
+            color: #FFD700;
+            font-weight: 700;
+        }
+
+        .personalization-note {
+            font-size: 13px;
+            color: #D4C5A9;
+            margin-top: 12px;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .back-btn {
+            margin-top: 60px;
+            background: transparent;
+            border: 2px solid #FFD700;
+            color: #8B7355;
+            padding: 12px 32px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            border-color: #FFA500;
+            color: #2C2416;
+            background: rgba(255, 215, 0, 0.1);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(255, 215, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 48px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .input-field {
+                padding: 20px 130px 20px 26px;
+                font-size: 16px;
+            }
+
+            .analyze-btn {
+                padding: 12px 28px;
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+
+            .results-header {
+                font-size: 32px;
+            }
+
+            .step-card {
+                padding: 20px 22px;
+            }
+
+            .step-title {
+                font-size: 18px;
+            }
+
+            .qr-code img {
+                width: 180px;
+                height: 180px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 40px;
+            }
+
+            .input-field {
+                padding: 20px 24px 80px 24px;
+            }
+
+            .input-controls {
+                position: static;
+                transform: none;
+                justify-content: center;
+                margin-top: 16px;
+                width: 100%;
+            }
+
+            .analyze-btn {
+                width: 100%;
+                padding: 16px 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="heroSection">
+            <div class="hero">
+                <h1 class="title">Business 10X</h1>
+                <p class="subtitle">Turn your business idea into a strategic growth plan.</p>
+            </div>
+
+            <div class="input-section">
+                <div class="input-container">
+                    <input
+                        type="text"
+                        class="input-field"
+                        id="businessInput"
+                        placeholder="Describe your business..."
+                    >
+                    <div class="input-controls">
+                        <button class="analyze-btn" id="analyzeBtn">Analyze</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p class="loading-text" id="loadingText">Analyzing your business strategy...</p>
+        </div>
+
+        <div class="results" id="results">
+            <h2 class="results-header">Plan to Make Your Business 10X</h2>
+            <p class="result-note" id="resultNote"></p>
+            <div class="steps-container" id="stepsContainer"></div>
+            <button class="back-btn" id="backBtn">Create New Plan</button>
+        </div>
+    </div>
+
+    <script>
+        const businessInput = document.getElementById('businessInput');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const heroSection = document.getElementById('heroSection');
+        const loading = document.getElementById('loading');
+        const loadingText = document.getElementById('loadingText');
+        const results = document.getElementById('results');
+        const stepsContainer = document.getElementById('stepsContainer');
+        const backBtn = document.getElementById('backBtn');
+        const resultNote = document.getElementById('resultNote');
+
+        // If your frontend is hosted separately from Render, replace this with your Render URL.
+        const API_BASE_URL = '';
+
+        const publicConfig = {
+            qrCodeUrl: 'https://placehold.co/220x220/png?text=Add+Your+QR',
+            instagramHandle: '@yourinstagram',
+            unlockPrice: '$4.99'
+        };
+
+        const strategiesTemplate = [
+            {
+                number: 1,
+                title: "Value Proposition Alignment",
+                description: "Define your core offering by mapping it directly to the real pains, desires, and outcomes your target audience cares about most. A clearer value proposition makes your marketing sharper and your offer easier to buy."
+            },
+            {
+                number: 2,
+                title: "Audience Positioning",
+                description: "Narrow your messaging so the right customer instantly feels that your business is meant for them. Strong positioning reduces confusion and improves conversion across every channel."
+            },
+            {
+                number: 3,
+                title: "Offer Packaging",
+                description: "Turn your service or product into a simple, easy-to-understand package with clear benefits and outcomes. Better packaging increases perceived value and helps buyers decide faster."
+            },
+            {
+                number: 4,
+                title: "Acquisition Channel Focus",
+                description: "Pick one or two customer acquisition channels and commit to mastering them before expanding. Focus creates faster learning loops and a lower customer acquisition cost."
+            },
+            {
+                number: 5,
+                title: "Content Authority System",
+                description: "Publish useful content that directly answers buyer questions and demonstrates expertise in your niche. This builds trust before the sales conversation even starts."
+            },
+            {
+                number: 6,
+                title: "Conversion Optimization",
+                description: "Improve your landing pages, offer wording, and call-to-action flow so more visitors become leads or buyers. Small conversion gains compound into major revenue growth."
+            },
+            {
+                number: 7,
+                title: "Retention and Upsell Loop",
+                description: "Design follow-up offers, customer support touchpoints, and retention campaigns that keep buyers engaged for longer. Existing customers are usually the fastest path to higher profit."
+            },
+            {
+                number: 8,
+                title: "Systems and Automation",
+                description: "Document repeatable tasks and automate the parts of the business that slow you down. Cleaner systems give you more time for sales, delivery, and strategy."
+            },
+            {
+                number: 9,
+                title: "Metrics That Matter",
+                description: "Track the few numbers that actually drive growth, such as leads, conversion rate, retention, and customer value. Better measurement helps you scale what is working and cut what is not."
+            }
+        ];
+
+        analyzeBtn.addEventListener('click', generatePlan);
+        businessInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') generatePlan();
+        });
+        backBtn.addEventListener('click', resetApp);
+
+        loadConfig();
+
+        async function loadConfig() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/config`);
+
+                if (!response.ok) {
+                    return;
+                }
+
+                const data = await response.json();
+                Object.assign(publicConfig, data);
+            } catch (error) {
+                // Local static fallback remains usable even when the backend is unreachable.
+            }
+        }
+
+        async function generatePlan() {
+            const businessIdea = businessInput.value.trim();
+
+            if (!businessIdea) {
+                businessInput.focus();
+                return;
+            }
+
+            heroSection.style.display = 'none';
+            results.classList.remove('active');
+            stepsContainer.innerHTML = '';
+            loading.classList.add('active');
+            loadingText.textContent = 'Generating your business strategy...';
+
+            let steps = strategiesTemplate;
+            let source = 'fallback';
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/plan`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ businessIdea })
+                });
+
+                if (!response.ok) {
+                    throw new Error('OpenAI plan request failed.');
+                }
+
+                const data = await response.json();
+
+                if (Array.isArray(data.steps) && data.steps.length === 9) {
+                    steps = data.steps;
+                    source = data.source || 'openai';
+
+                    if (data.config) {
+                        Object.assign(publicConfig, data.config);
+                    }
+                } else {
+                    throw new Error('Invalid AI response shape.');
+                }
+            } catch (error) {
+                source = 'fallback';
+            }
+
+            loading.classList.remove('active');
+            results.classList.add('active');
+
+            if (source === 'openai') {
+                resultNote.textContent = 'Personalized AI plan generated from your business idea.';
+            } else {
+                resultNote.textContent = 'AI server unavailable, so the static backup plan is shown.';
+            }
+
+            displaySteps(steps);
+        }
+
+        function displaySteps(steps) {
+            stepsContainer.innerHTML = '';
+
+            steps.forEach((step, index) => {
+                setTimeout(() => {
+                    const stepCard = createStepCard({
+                        number: index + 1,
+                        title: step.title,
+                        description: step.description
+                    });
+
+                    stepsContainer.appendChild(stepCard);
+
+                    requestAnimationFrame(() => {
+                        stepCard.classList.add('animate');
+                    });
+                }, index * 150);
+            });
+
+            setTimeout(() => {
+                const lockedStep = createLockedStep();
+                stepsContainer.appendChild(lockedStep);
+
+                requestAnimationFrame(() => {
+                    lockedStep.classList.add('animate');
+                });
+            }, steps.length * 150);
+        }
+
+        function createStepCard(step) {
+            const card = document.createElement('div');
+            card.className = 'step-card';
+            card.innerHTML = `
+                <div class="step-number">Step ${step.number}</div>
+                <div class="step-title">${escapeHtml(step.title)}</div>
+                <div class="step-description">${escapeHtml(step.description)}</div>
+            `;
+            return card;
+        }
+
+        function createLockedStep() {
+            const card = document.createElement('div');
+            card.className = 'step-card locked-card';
+            card.innerHTML = `
+                <div class="step-number">Step 10</div>
+                <div class="step-title">
+                    <span class="lock-icon">🔒</span>
+                    The Growth Multiplier
+                </div>
+                <div class="step-description">
+                    This final step contains the highest-leverage strategy tailored to your business.
+                </div>
+                <div class="payment-section">
+                    <div class="payment-text">Unlock the final strategy — ${escapeHtml(publicConfig.unlockPrice)}</div>
+                    <div class="qr-code">
+                        <img src="${escapeAttribute(publicConfig.qrCodeUrl)}" alt="Payment QR Code">
+                    </div>
+                    <div class="payment-instruction">
+                        <strong>After completing the payment</strong>, send a screenshot of your plan on Instagram DM at ${escapeHtml(publicConfig.instagramHandle)} to receive your final personalized strategy.
+                        <div class="personalization-note">
+                            This allows the final step to be refined specifically for your business model.
+                        </div>
+                    </div>
+                </div>
+            `;
+            return card;
+        }
+
+        function resetApp() {
+            results.classList.remove('active');
+            loading.classList.remove('active');
+            stepsContainer.innerHTML = '';
+            resultNote.textContent = '';
+            heroSection.style.display = 'block';
+            businessInput.value = '';
+            businessInput.focus();
+        }
+
+        function escapeHtml(value) {
+            return String(value)
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;')
+                .replaceAll("'", '&#39;');
+        }
+
+        function escapeAttribute(value) {
+            return escapeHtml(value);
+        }
+    </script>
+</body>
+</html>
