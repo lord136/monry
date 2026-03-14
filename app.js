@@ -552,6 +552,346 @@ const strategyCatalog = [
             ['Improve Proposal Speed', 'Send clear estimates and next steps quickly so warm leads do not drift toward slower competitors.'],
             ['Track Win Rate by Project Type', 'Measure which services, industries, and deal sizes close fastest and produce the best margins.']
         ]
+    ),
+    strategy(
+        'creator',
+        'Content Creator and Influencer',
+        ['content creator', 'creator', 'influencer', 'personal brand', 'creator business'],
+        'This creator roadmap focuses on niche clarity, audience trust, and converting attention into income.',
+        [
+            ['Define a Clear Creator Niche', 'Choose one lane such as motivation, fashion, finance, food, fitness, or business so your audience knows why to follow you.'],
+            ['Build a Repeatable Content Pillar System', 'Create three to five recurring content themes so your posting stays consistent and recognizable.'],
+            ['Sharpen Your Hook and Positioning', 'Make your bio, opening lines, and first few seconds instantly communicate what value people will get from you.'],
+            ['Turn Viewers Into Community', 'Push followers into WhatsApp, email, or close-friends style spaces where attention becomes more durable.'],
+            ['Design Clear Monetization Paths', 'Map brand deals, affiliate revenue, digital products, coaching, or memberships instead of relying on random inquiries.'],
+            ['Batch Content Production', 'Plan, record, and edit multiple posts in one session so consistency does not depend on daily motivation.'],
+            ['Strengthen Social Proof', 'Show milestones, testimonials, brand features, or audience wins so new viewers trust you faster.'],
+            ['Create Conversion Content', 'Mix discovery content with offer-led posts that naturally move people toward inquiry or purchase.'],
+            ['Track Revenue per Content Pillar', 'Measure which themes bring the most growth, leads, and sales so your effort stays focused.']
+        ]
+    ),
+    strategy(
+        'youtube',
+        'YouTube Creator',
+        ['youtube', 'youtuber', 'youtube channel', 'video channel'],
+        'This YouTube roadmap is built around stronger watch time, repeat viewers, and monetization depth.',
+        [
+            ['Own One Channel Promise', 'Make the channel easy to describe in one line so the right audience instantly understands why to subscribe.'],
+            ['Improve Packaging', 'Upgrade titles, thumbnails, and first 30 seconds because those drive most of your growth ceiling.'],
+            ['Create Series-Based Content', 'Use repeatable formats so viewers learn what to expect and return more often.'],
+            ['Balance Search and Browse Topics', 'Mix evergreen topics with high-interest timely videos so the channel grows from multiple directions.'],
+            ['Build Mid-Video Retention', 'Remove filler, tighten pacing, and open loops so viewers stay longer and watch more videos.'],
+            ['Push Viewer Journeys', 'Guide people from one video to the next using playlists, end screens, and topic clusters.'],
+            ['Add Revenue Beyond AdSense', 'Use sponsorships, affiliate links, products, or services so the business does not rely on platform payouts alone.'],
+            ['Repurpose Into Shorts and Clips', 'Turn long-form content into shorter discovery assets that feed the main channel.'],
+            ['Track Watch Time by Format', 'Measure which topics and structures hold attention best so your next videos are better bets.']
+        ]
+    ),
+    strategy(
+        'instagram-creator',
+        'Instagram Creator Brand',
+        ['instagram creator', 'instagram', 'reels creator', 'reels', 'ig creator'],
+        'This Instagram roadmap focuses on reach, repeat engagement, and converting profile visits into business.',
+        [
+            ['Clarify Your Profile Promise', 'Use your name, bio, highlights, and pinned posts to tell visitors exactly what you create and why it matters.'],
+            ['Choose Core Reel Formats', 'Pick a small set of repeatable reel styles so the account becomes easier to produce and easier to remember.'],
+            ['Improve Scroll-Stopping Hooks', 'Make the first second visually strong and the opening text immediately relevant to the target audience.'],
+            ['Build a Story Funnel', 'Use stories to deepen trust, collect replies, and warm followers toward links, DMs, or offers.'],
+            ['Create Save-and-Share Posts', 'Add carousels, checklists, and opinion-led posts that earn more distribution than pure lifestyle content.'],
+            ['Monetize Through Clear Offers', 'Present brand collaborations, affiliate picks, digital products, or services in a clean and visible way.'],
+            ['Use Creator Collaborations', 'Partner with adjacent creators to borrow trust and reach from aligned audiences.'],
+            ['Turn DMs Into Sales', 'Guide interested followers with simple scripts and next steps instead of informal back-and-forth chats.'],
+            ['Track Reach to Inquiry Conversion', 'Measure which content actually leads to DMs, clicks, and paid opportunities.']
+        ]
+    ),
+    strategy(
+        'podcast',
+        'Podcast',
+        ['podcast', 'podcaster', 'show host', 'audio show'],
+        'This podcast roadmap focuses on authority, listener loyalty, and monetization beyond pure audience size.',
+        [
+            ['Define the Show Angle', 'Make the show stand for one clear topic and point of view so the right audience sticks.'],
+            ['Improve Episode Packaging', 'Use stronger titles, descriptions, and cover art so each episode earns more starts.'],
+            ['Create Repeatable Episode Formats', 'Build consistency through interviews, solo lessons, case studies, or breakdown episodes.'],
+            ['Use Guest Strategy Intentionally', 'Invite guests who can bring reach, credibility, or a strong learning moment for listeners.'],
+            ['Repurpose Every Episode', 'Turn one recording into clips, quote posts, email summaries, and short videos.'],
+            ['Capture Listener Ownership', 'Move listeners into email, community, or private groups so the relationship survives platform shifts.'],
+            ['Sell Relevant Sponsorships', 'Pitch sponsors that fit the audience instead of chasing any brand willing to pay.'],
+            ['Offer Paid Extensions', 'Add workshops, premium episodes, consulting, or products that deepen the podcast business.'],
+            ['Track Listener Retention by Topic', 'Measure which themes and formats keep listeners engaged and coming back weekly.']
+        ]
+    ),
+    strategy(
+        'ugc',
+        'UGC Creator',
+        ['ugc creator', 'ugc', 'user generated content', 'brand content creator'],
+        'This UGC roadmap focuses on landing more brand deals, better retainers, and a more professional creator business.',
+        [
+            ['Specialize by Brand Type', 'Target beauty, food, apps, fashion, or home brands so your portfolio looks more relevant.'],
+            ['Build a Conversion Portfolio', 'Show only your strongest hooks, scripts, and ad-style creative so brands can imagine hiring you quickly.'],
+            ['Productize Your Deliverables', 'Package hooks, raw clips, edited videos, usage rights, and revisions into simple offers.'],
+            ['Prospect Consistently', 'Send personalized pitches to brands and agencies every week with relevant examples, not generic intros.'],
+            ['Improve Brief Interpretation', 'Turn vague brand asks into clear creative concepts so the process feels easier for clients.'],
+            ['Speed Up Delivery', 'Use templates and batching to keep turnaround fast without lowering quality.'],
+            ['Upsell Usage and Retainers', 'Charge properly for ad usage, whitelisting, monthly packages, or testing bundles.'],
+            ['Collect Performance Proof', 'Ask for metrics, testimonials, or results that show your content helps brands convert.'],
+            ['Track Win Rate by Niche', 'Measure which brand types and offer structures close fastest and pay best.']
+        ]
+    ),
+    strategy(
+        'video-editor',
+        'Video Editing and Post Production',
+        ['video editor', 'editing', 'post production', 'editor', 'reel editor', 'shorts editor'],
+        'This editing roadmap focuses on premium positioning, retainers, and faster creator or brand acquisition.',
+        [
+            ['Pick Your Editing Lane', 'Own short-form edits, YouTube storytelling, ad creatives, podcasts, or cinematic edits instead of vague editing services.'],
+            ['Build a Niche Reel', 'Show only the kind of edits you want more clients to buy.'],
+            ['Sell Speed and Outcome', 'Position around retention, conversion, or brand polish rather than only technical skill.'],
+            ['Create Package Tiers', 'Offer clear plans for volume, turnaround, revisions, and platform formats so buying becomes simpler.'],
+            ['Prospect With Samples', 'Reach out to creators and brands with relevant micro-audits or edit examples that prove fit.'],
+            ['Improve Client Onboarding', 'Standardize file collection, brand references, and delivery notes to save time on every project.'],
+            ['Push Retainer Relationships', 'Move one-off edits into monthly support where possible.'],
+            ['Build Referral Momentum', 'Ask happy clients for introductions to other creators, agencies, and founders who need content support.'],
+            ['Track Margin by Project Type', 'Measure which editing formats take the most time versus bring the best revenue.']
+        ]
+    ),
+    strategy(
+        'music-artist',
+        'Music Artist and Independent Music Brand',
+        ['music artist', 'musician', 'singer', 'rapper', 'music producer', 'artist brand'],
+        'This music-brand roadmap is built around audience loyalty, release momentum, and multiple income streams.',
+        [
+            ['Define the Artist Identity', 'Make your sound, visual style, and story feel clear enough that new listeners remember you quickly.'],
+            ['Build Release Campaign Systems', 'Plan teasers, snippets, behind-the-scenes clips, and launch-day pushes around every release.'],
+            ['Turn Songs Into Content Assets', 'Use one track to generate reels, acoustic cuts, lyric clips, and audience interaction moments.'],
+            ['Grow a Core Fan Community', 'Move loyal listeners into email, WhatsApp, Discord, or broadcast channels so they show up consistently.'],
+            ['Collaborate Strategically', 'Work with aligned artists and creators who can expand your reach without diluting your identity.'],
+            ['Create Monetization Layers', 'Add shows, fan clubs, merch, sync opportunities, lessons, or premium experiences beyond streaming.'],
+            ['Show the Human Story', 'Let fans see process, practice, and personality so attachment grows beyond the songs alone.'],
+            ['Build Local and Digital Presence', 'Balance online growth with live moments that deepen fandom and social proof.'],
+            ['Track Fan Response by Format', 'Measure which songs, clips, and campaigns create the most saves, shares, and revenue.']
+        ]
+    ),
+    strategy(
+        'gaming',
+        'Gaming and Live Streaming Creator',
+        ['gaming', 'streamer', 'streaming', 'twitch', 'gaming creator', 'live streamer'],
+        'This streaming roadmap focuses on community retention, stronger live sessions, and diversified creator income.',
+        [
+            ['Choose a Stream Identity', 'Stand for one game, one vibe, one skill angle, or one entertainment style so viewers know what to expect.'],
+            ['Improve Live Session Structure', 'Plan openings, big moments, audience interaction, and closing CTAs instead of going fully random.'],
+            ['Turn Streams Into Clip Machines', 'Extract highlights, reactions, wins, and funny moments into short-form discovery content.'],
+            ['Build Community Rituals', 'Use recurring schedules, inside jokes, challenges, and shout-outs that make viewers feel part of something.'],
+            ['Monetize Beyond Donations', 'Add memberships, sponsorships, affiliates, merch, coaching, or digital products where relevant.'],
+            ['Collaborate With Other Streamers', 'Share audiences through co-streams, matches, or challenge formats that create energy and reach.'],
+            ['Improve Viewer Conversion', 'Guide casual viewers toward follows, community spaces, and return visits instead of leaving engagement passive.'],
+            ['Use Event-Based Growth', 'Tie streams to updates, launches, tournaments, or community milestones that naturally drive spikes.'],
+            ['Track Returning Viewer Rate', 'Measure which streams bring repeat attendance and longest watch time so you refine the format.']
+        ]
+    ),
+    strategy(
+        'newsletter',
+        'Newsletter and Writer Brand',
+        ['newsletter', 'writer', 'substack', 'email writer', 'blogger', 'ghostwriter'],
+        'This writer-brand roadmap focuses on audience ownership, trust, and monetizing written expertise.',
+        [
+            ['Own a Clear Topic Position', 'Choose one angle such as startups, careers, lifestyle, finance, or storytelling so readers know what they are subscribing to.'],
+            ['Strengthen the Welcome Experience', 'Use a focused landing page and welcome emails that explain the value of staying subscribed.'],
+            ['Build Repeatable Content Columns', 'Create recurring series so publishing becomes easier and reader expectations become stronger.'],
+            ['Use Lead Magnets Smartly', 'Offer templates, guides, or checklists that attract the right subscribers rather than low-intent signups.'],
+            ['Monetize With Fit', 'Use sponsorships, paid issues, consulting, courses, or ghostwriting services that match audience needs.'],
+            ['Repurpose Into Social Distribution', 'Turn each issue into threads, carousels, reels, or quote posts that bring new readers in.'],
+            ['Segment the Audience', 'Separate casual readers from high-intent buyers so your offers feel more targeted.'],
+            ['Improve Referral Loops', 'Give readers reasons to forward, share, and recommend the newsletter consistently.'],
+            ['Track Open-to-Offer Conversion', 'Measure which topics and CTAs turn readers into revenue, not just opens.']
+        ]
+    ),
+    strategy(
+        'talent-management',
+        'Creator Management and Talent Agency',
+        ['creator management', 'talent management', 'influencer agency', 'creator agency', 'talent agency'],
+        'This talent-agency roadmap focuses on stronger creator positioning, repeat brand deals, and reliable operations.',
+        [
+            ['Define Your Creator Roster Niche', 'Represent a specific type of creator or audience segment so your agency becomes easier for brands to understand.'],
+            ['Package Talent Clearly', 'Present creator audiences, content strengths, and campaign fit in a clean, brand-friendly way.'],
+            ['Build Brand Prospect Lists', 'Maintain active target lists of agencies and brands that already spend in the niches you serve.'],
+            ['Improve Campaign Workflow', 'Standardize outreach, negotiation, briefs, approvals, and reporting so execution feels polished.'],
+            ['Protect Creator Positioning', 'Guide creators toward better content consistency so brand demand rises over time.'],
+            ['Sell Long-Term Partnerships', 'Push quarterly or recurring collaborations instead of only one-off campaigns.'],
+            ['Add Service Layers', 'Offer scripting, editing, strategy, or analytics support so your agency becomes more valuable to both sides.'],
+            ['Track Deal Quality', 'Measure not just deal count but average fee, repeat rate, and creator satisfaction.'],
+            ['Build Agency Credibility', 'Use campaign results, testimonials, and professional communication to make bigger brands comfortable buying.']
+        ]
+    ),
+    strategy(
+        'ai-automation',
+        'AI Automation Agency',
+        ['ai automation', 'automation agency', 'ai agency', 'automation business', 'workflow automation'],
+        'This AI-automation roadmap focuses on niche positioning, proof, and retainers built around measurable business outcomes.',
+        [
+            ['Pick a Clear Automation Niche', 'Target one client type such as clinics, real estate, ecommerce, or service businesses so your pitch feels concrete.'],
+            ['Sell a Result, Not a Tool', 'Frame the offer around saved time, faster lead response, or lower operating cost instead of only naming tools.'],
+            ['Package One Flagship Solution', 'Lead with one repeatable automation offer that is easy to explain, price, and deliver across similar businesses.'],
+            ['Build Demo-Based Selling', 'Show simple before-and-after workflows so prospects understand the value quickly.'],
+            ['Create Fast Discovery Calls', 'Use a tight audit process to find one painful manual task that you can fix fast.'],
+            ['Push Setup Plus Retainer', 'Charge for implementation first, then ongoing support, maintenance, and optimization.'],
+            ['Use Case Studies Aggressively', 'Document time saved, leads recovered, or manual effort removed so new prospects trust the work.'],
+            ['Partner With Agencies and Consultants', 'Work with marketers, CRMs, and business consultants who can feed you clients needing automation.'],
+            ['Track Profit by Automation Type', 'Measure which workflows sell fastest, deliver cleanest, and create the best recurring revenue.']
+        ]
+    ),
+    strategy(
+        'ai-consulting',
+        'AI Consulting and Strategy',
+        ['ai consultant', 'ai consulting', 'artificial intelligence consulting', 'ai strategy', 'ai advisor'],
+        'This AI-consulting roadmap is built around authority, premium advisory work, and downstream implementation revenue.',
+        [
+            ['Define the Advisory Angle', 'Position around AI adoption, AI operations, team enablement, or specific use cases instead of vague general consulting.'],
+            ['Educate the Market Clearly', 'Explain what AI can actually improve for a business so prospects move from curiosity to buying intent.'],
+            ['Use Audit-Led Entry Offers', 'Start with paid assessments that identify high-value AI opportunities inside the client business.'],
+            ['Build Vertical Expertise', 'Choose sectors like healthcare, retail, education, or services so your recommendations feel more credible.'],
+            ['Turn Strategy Into Roadmaps', 'Deliver clear phased plans that show where automation, content AI, and data workflows fit.'],
+            ['Add Implementation Partners', 'Use developer, operations, or automation partners so consulting can convert into larger delivery projects.'],
+            ['Publish High-Trust Content', 'Share sharp use cases, myths, and adoption lessons that position you as a serious operator.'],
+            ['Create Leadership Workshops', 'Offer team trainings and founder sessions that widen deal size and decision-maker access.'],
+            ['Track Advisory-to-Execution Conversion', 'Measure how often consulting work expands into implementation and recurring support.']
+        ]
+    ),
+    strategy(
+        'chatbot-dev',
+        'Chatbot and AI Assistant Development',
+        ['chatbot', 'ai assistant', 'bot development', 'customer support bot', 'whatsapp bot'],
+        'This chatbot roadmap focuses on clear use cases, trust, and recurring support revenue.',
+        [
+            ['Choose High-Intent Use Cases', 'Lead with support bots, lead qualification, booking help, or internal knowledge assistants instead of generic bots.'],
+            ['Sell Business Outcomes', 'Position your chatbot around faster replies, lead capture, or support cost reduction rather than novelty.'],
+            ['Build a Reusable Delivery Stack', 'Standardize your approach to prompts, knowledge bases, testing, and handoff so builds stay efficient.'],
+            ['Demo Real Conversations', 'Show believable example chats that prove the assistant can actually help users complete tasks.'],
+            ['Design Human Escalation', 'Make sure each assistant has a clean fallback path so businesses trust deployment.'],
+            ['Offer Optimization Retainers', 'Charge ongoing fees for prompt tuning, analytics, new flows, and knowledge updates.'],
+            ['Target Channel-Specific Buyers', 'Separate WhatsApp, website, and internal-assistant prospects because their needs differ.'],
+            ['Collect Conversion Proof', 'Measure lead capture, response time, and support deflection to make future sales easier.'],
+            ['Track Retention by Use Case', 'Compare which chatbot types stay active longest and produce the best margins.']
+        ]
+    ),
+    strategy(
+        'no-code',
+        'No-Code and Low-Code Builder',
+        ['no code', 'nocode', 'low code', 'bubble', 'webflow', 'zapier', 'make.com'],
+        'This no-code roadmap focuses on speed, productized delivery, and winning buyers who value execution over engineering complexity.',
+        [
+            ['Pick a Build Category', 'Own landing pages, MVP apps, internal tools, automations, or marketplaces so your positioning feels clear.'],
+            ['Sell Speed to Launch', 'Lead with how quickly you can help clients test or run something real rather than talking about the tools first.'],
+            ['Create Fixed-Scope Offers', 'Package common builds into clean tiers so leads can buy without long technical discussions.'],
+            ['Show Working Products', 'Use live demos and screenshots to prove you can ship useful outcomes fast.'],
+            ['Target Founder and SME Buyers', 'Focus on clients who need momentum quickly and do not want a long engineering cycle.'],
+            ['Add Growth and Maintenance Plans', 'Offer post-launch updates, automation support, and iteration retainers once the first build goes live.'],
+            ['Partner With Designers and Consultants', 'Combine with adjacent specialists who can bring projects without doing the build work themselves.'],
+            ['Use Build-in-Public Content', 'Share process clips and launch outcomes so prospects see your speed and thinking.'],
+            ['Track Scope Accuracy', 'Measure which project types stay profitable and which ones expand beyond healthy no-code boundaries.']
+        ]
+    ),
+    strategy(
+        'machine-learning',
+        'Machine Learning Services',
+        ['machine learning', 'ml engineer', 'ml services', 'predictive model', 'computer vision', 'nlp'],
+        'This ML-services roadmap is built around narrow positioning, strong proof, and high-trust delivery.',
+        [
+            ['Choose a Specific ML Use Case', 'Position around forecasting, classification, recommendation, NLP, or computer vision instead of broad ML claims.'],
+            ['Sell Business Impact First', 'Explain how the model helps reduce errors, improve decisions, or create revenue so the work feels commercial.'],
+            ['Use Data Audits as Entry Points', 'Start by assessing data quality and feasibility before promising complex model outcomes.'],
+            ['Build Case Study Depth', 'Show the business problem, data constraints, and measured result so prospects see real competence.'],
+            ['Target Data-Mature Buyers', 'Focus on companies that already collect enough usable data to benefit from ML work.'],
+            ['Package Pilots Before Large Rollouts', 'Offer smaller proof-of-concept projects that reduce buying risk and speed decisions.'],
+            ['Add Monitoring and Maintenance', 'Sell model upkeep, retraining, and performance tracking after deployment.'],
+            ['Collaborate With Product Teams', 'Work closely with the implementation side so models actually get used instead of staying theoretical.'],
+            ['Track Delivery Complexity vs Margin', 'Measure which ML project types are profitable and which ones carry too much custom risk.']
+        ]
+    ),
+    strategy(
+        'data-analytics',
+        'Data Analytics and Dashboard Services',
+        ['data analytics', 'analytics', 'dashboard', 'power bi', 'tableau', 'data analyst', 'reporting'],
+        'This analytics roadmap focuses on recurring reporting revenue, clarity, and decision-maker trust.',
+        [
+            ['Define the Reporting Promise', 'Lead with sales dashboards, operations reporting, finance visibility, or marketing analytics so the offer feels concrete.'],
+            ['Simplify the Business Story', 'Translate numbers into decisions and actions instead of overwhelming clients with too many charts.'],
+            ['Productize Dashboard Builds', 'Package setup, data cleanup, dashboard design, and monthly reporting into clear service tiers.'],
+            ['Target Teams With Messy Data', 'Go after businesses that already have data but cannot turn it into useful visibility.'],
+            ['Create Fast Audit Offers', 'Review current reporting pain points and highlight obvious visibility gaps before the larger sale.'],
+            ['Build Recurring Review Cycles', 'Offer monthly or weekly insight calls so the dashboard becomes part of management rhythm.'],
+            ['Show Decision Impact', 'Use examples where better reporting improved spend, sales, forecasting, or team accountability.'],
+            ['Partner With Finance and Ops Advisors', 'Work with consultants whose clients need cleaner data visibility.'],
+            ['Track Retainer Stickiness', 'Measure which reporting categories keep clients paying month after month.']
+        ]
+    ),
+    strategy(
+        'devops-cloud',
+        'DevOps and Cloud Services',
+        ['devops', 'cloud engineer', 'aws', 'azure', 'gcp', 'infrastructure', 'cloud services'],
+        'This cloud-services roadmap focuses on reliability, recurring support, and selling operational confidence.',
+        [
+            ['Choose a Service Wedge', 'Lead with deployments, cloud migration, infrastructure setup, CI/CD, or monitoring instead of vague DevOps messaging.'],
+            ['Sell Reliability and Speed', 'Position your work around uptime, release velocity, and fewer failures rather than only technical jargon.'],
+            ['Target Growing Tech Teams', 'Focus on startups and product teams that feel pain from manual deployments or fragile infrastructure.'],
+            ['Use Infrastructure Audits', 'Offer reviews that expose obvious cloud waste, deployment risk, and monitoring gaps.'],
+            ['Package Managed Support', 'Bundle alerts, maintenance, backups, security checks, and incident response into monthly retainers.'],
+            ['Document Process Clearly', 'Strong runbooks and handover materials make clients trust your operational maturity.'],
+            ['Create Migration Proof', 'Show examples of faster deploys, lower downtime, or lower cloud bills after your work.'],
+            ['Partner With Software Agencies', 'Become the infrastructure specialist behind teams that ship code but do not want ops complexity.'],
+            ['Track Support Margin', 'Know which service bundles create durable recurring revenue without constant firefighting.']
+        ]
+    ),
+    strategy(
+        'cybersecurity',
+        'Cybersecurity Services',
+        ['cybersecurity', 'security audit', 'penetration testing', 'infosec', 'vapt', 'security consultant'],
+        'This cybersecurity roadmap focuses on trust, specialized positioning, and high-value recurring protection work.',
+        [
+            ['Define a Security Niche', 'Specialize in audits, VAPT, awareness training, compliance, or cloud security so buyers understand your lane.'],
+            ['Lead With Risk Reduction', 'Explain how your work prevents downtime, financial loss, and compliance issues instead of sounding abstract.'],
+            ['Use Security Assessments as Entry Offers', 'Start with scoped audits that make hidden risks visible and create urgency.'],
+            ['Build Authority Carefully', 'Publish useful guidance and anonymized insights that show expertise without oversharing sensitive details.'],
+            ['Package Ongoing Security Support', 'Offer recurring checks, monitoring, policy updates, and training so revenue is not only project-based.'],
+            ['Target High-Risk Buyers', 'Focus on sectors or companies that already feel real pressure around trust and compliance.'],
+            ['Create Executive-Friendly Reporting', 'Make findings easy for founders and managers to understand and act on.'],
+            ['Partner With Tech Providers', 'Work with MSPs, cloud teams, and software vendors whose clients need stronger security help.'],
+            ['Track Assessment-to-Retainer Conversion', 'Measure how often one-time audits turn into longer-term security relationships.']
+        ]
+    ),
+    strategy(
+        'web-freelancer',
+        'Web Development Freelancer',
+        ['web developer', 'website developer', 'web freelancer', 'frontend developer', 'backend developer', 'full stack'],
+        'This web-freelancer roadmap focuses on positioning, faster closes, and turning one-off builds into repeat revenue.',
+        [
+            ['Pick a Client Type', 'Target coaches, local businesses, ecommerce brands, creators, or startups so your sales message gets sharper.'],
+            ['Productize Website Offers', 'Create fixed packages for landing pages, business sites, booking sites, or website refresh projects.'],
+            ['Lead With Business Value', 'Talk about more leads, better trust, faster speed, or improved conversion rather than only technical quality.'],
+            ['Use Fast Portfolio Proof', 'Show concise before-and-after examples that make your impact obvious within seconds.'],
+            ['Improve Inquiry Handling', 'Respond with a simple process, clear timeline, and rough budget range so leads do not stall.'],
+            ['Add Website Care Plans', 'Offer updates, backups, hosting coordination, and monthly tweaks after the initial launch.'],
+            ['Build Referral Loops', 'Ask each client for one introduction or testimonial while the project is still fresh.'],
+            ['Use Targeted Outreach', 'Reach out to businesses with weak websites and show one or two clear improvement opportunities.'],
+            ['Track Lead Source Profitability', 'Measure which channels and project types bring the smoothest work and best margin.']
+        ]
+    ),
+    strategy(
+        'ai-saas',
+        'AI SaaS Product',
+        ['ai saas', 'saas product', 'ai product', 'software startup', 'ai startup', 'b2b saas'],
+        'This AI-SaaS roadmap focuses on niche pain, product clarity, and recurring subscription growth.',
+        [
+            ['Define a Narrow Pain Point', 'Solve one expensive, frequent problem for one type of buyer instead of building a broad AI tool for everyone.'],
+            ['Clarify the Core Workflow', 'Make the product easy to explain in terms of the job it replaces or speeds up.'],
+            ['Use Fast Customer Discovery', 'Talk to target users constantly so the roadmap follows real pain instead of internal guesses.'],
+            ['Ship the Smallest Useful Product', 'Prioritize the shortest path to a valuable recurring workflow before adding advanced features.'],
+            ['Design Activation Carefully', 'Help new users reach their first meaningful result quickly so trials are more likely to convert.'],
+            ['Use Proof-Led Marketing', 'Show outputs, case studies, and quantified wins that make the product feel trustworthy and practical.'],
+            ['Build Expansion Revenue', 'Add seat growth, usage expansion, or premium workflows after the core subscription proves value.'],
+            ['Track Churn by Segment', 'Measure which user types stick, which ones leave fast, and why that happens.'],
+            ['Align Sales Motion to ACV', 'Use self-serve, demos, or founder-led sales depending on deal size and buyer complexity.']
+        ]
     )
 ];
 
