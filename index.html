@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Business 10X - Strategic Growth Framework</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap');
@@ -21,6 +24,9 @@
             align-items: center;
             justify-content: center;
             padding: 40px 20px;
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
  
         .container {
@@ -88,11 +94,17 @@
             background: #FFFFFF;
             color: #2C2416;
             box-shadow: 0 2px 12px rgba(255, 215, 0, 0.08);
+            -webkit-appearance: none;
+            -webkit-tap-highlight-color: transparent;
         }
  
         .input-field:focus {
             border-color: #FFD700;
             box-shadow: 0 6px 32px rgba(255, 215, 0, 0.25);
+        }
+ 
+        .input-field::placeholder {
+            color: #C4A962;
         }
  
         .input-controls {
@@ -115,6 +127,8 @@
             box-shadow: 0 4px 20px rgba(255, 165, 0, 0.35);
             letter-spacing: 1.2px;
             text-transform: uppercase;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
         }
  
         .analyze-btn:hover {
@@ -125,6 +139,7 @@
  
         .analyze-btn:active {
             transform: translateY(0);
+            background: linear-gradient(135deg, #FFB700 0%, #FF8500 100%);
         }
  
         .loading {
@@ -154,6 +169,8 @@
             font-size: 17px;
             color: #8B7355;
             font-weight: 600;
+            padding: 0 20px;
+            text-align: center;
         }
  
         .results {
@@ -327,11 +344,18 @@
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
         }
  
         .back-btn:hover {
             background: rgba(255, 215, 0, 0.12);
             color: #2C2416;
+        }
+ 
+        .back-btn:active {
+            background: rgba(255, 215, 0, 0.2);
+            transform: scale(0.98);
         }
  
         .hidden {
@@ -345,21 +369,215 @@
         }
  
         @media (max-width: 768px) {
-            .title { font-size: 52px; }
-            .input-field { padding: 22px 140px 22px 28px; font-size: 17px; }
-            .analyze-btn { padding: 14px 32px; font-size: 15px; }
-            .results-header { font-size: 36px; }
-        }
+            body {
+                padding: 30px 16px;
+            }
  
-        @media (max-width: 480px) {
-            .title { font-size: 42px; }
-            .input-field { padding: 22px 26px; }
+            .title { 
+                font-size: 48px;
+                letter-spacing: -1.8px;
+                margin-bottom: 16px;
+            }
+ 
+            .subtitle {
+                font-size: 17px;
+                margin-bottom: 10px;
+            }
+ 
+            .tagline {
+                font-size: 14px;
+            }
+ 
+            .hero {
+                margin-bottom: 50px;
+            }
+ 
+            .input-section {
+                margin-bottom: 60px;
+            }
+ 
+            .input-field { 
+                padding: 20px 28px; 
+                font-size: 16px;
+                border-radius: 50px;
+            }
+ 
             .input-controls {
                 position: static;
                 transform: none;
+                margin-top: 16px;
+            }
+ 
+            .analyze-btn { 
+                width: 100%;
+                padding: 18px 32px; 
+                font-size: 15px;
+                letter-spacing: 1px;
+            }
+ 
+            .results-header { 
+                font-size: 32px;
+                margin-bottom: 16px;
+            }
+ 
+            .result-note {
+                font-size: 14px;
+                margin-bottom: 32px;
+                padding: 0 10px;
+            }
+ 
+            .steps-container {
+                gap: 18px;
+            }
+ 
+            .step-card {
+                padding: 24px 22px;
+                border-radius: 16px;
+            }
+ 
+            .step-number {
+                font-size: 12px;
+                margin-bottom: 8px;
+            }
+ 
+            .step-title {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+ 
+            .step-description {
+                font-size: 14.5px;
+                line-height: 1.65;
+            }
+ 
+            .payment-section {
+                padding: 20px;
+            }
+ 
+            .payment-text {
+                font-size: 17px;
+            }
+ 
+            .qr-code {
+                padding: 18px;
+                margin: 18px 0;
+            }
+ 
+            .qr-code img {
+                width: 200px;
+                height: 200px;
+            }
+ 
+            .payment-instruction {
+                font-size: 13.5px;
+                padding: 16px;
                 margin-top: 18px;
             }
-            .analyze-btn { width: 100%; }
+ 
+            .personalization-note {
+                font-size: 12.5px;
+                margin-top: 12px;
+            }
+ 
+            .back-btn {
+                margin-top: 50px;
+                padding: 16px 32px;
+                font-size: 15px;
+                width: 100%;
+            }
+        }
+ 
+        @media (max-width: 480px) {
+            body {
+                padding: 24px 14px;
+            }
+ 
+            .title { 
+                font-size: 38px;
+                letter-spacing: -1.5px;
+            }
+ 
+            .subtitle {
+                font-size: 16px;
+            }
+ 
+            .tagline {
+                font-size: 13px;
+            }
+ 
+            .hero {
+                margin-bottom: 40px;
+            }
+ 
+            .input-section {
+                margin-bottom: 50px;
+            }
+ 
+            .input-field {
+                padding: 18px 24px;
+                font-size: 15px;
+            }
+ 
+            .analyze-btn {
+                padding: 16px 28px;
+                font-size: 14px;
+            }
+ 
+            .results-header {
+                font-size: 28px;
+            }
+ 
+            .result-note {
+                font-size: 13px;
+            }
+ 
+            .step-card {
+                padding: 20px 18px;
+            }
+ 
+            .step-title {
+                font-size: 17px;
+            }
+ 
+            .step-description {
+                font-size: 14px;
+            }
+ 
+            .qr-code img {
+                width: 180px;
+                height: 180px;
+            }
+ 
+            .payment-instruction {
+                font-size: 13px;
+                padding: 14px;
+            }
+        }
+ 
+        @media (max-width: 360px) {
+            .title {
+                font-size: 34px;
+            }
+ 
+            .input-field {
+                padding: 16px 20px;
+                font-size: 14px;
+            }
+ 
+            .analyze-btn {
+                padding: 15px 24px;
+                font-size: 13px;
+                letter-spacing: 0.8px;
+            }
+ 
+            .step-card {
+                padding: 18px 16px;
+            }
+ 
+            .qr-code img {
+                width: 160px;
+                height: 160px;
+            }
         }
     </style>
 </head>
@@ -605,6 +823,9 @@
             document.getElementById('heroSection').classList.add('hidden');
             document.getElementById('loading').classList.add('active');
  
+            // Scroll to top on mobile for better UX
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+ 
             await showLoading();
  
             // Get strategy
@@ -617,6 +838,11 @@
                 `${strategy.label} growth strategy applied. ${strategy.opening}`;
  
             displaySteps(strategy.steps);
+ 
+            // Small delay then scroll to results
+            setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }, 100);
         }
  
         // Reset function
@@ -627,7 +853,14 @@
             document.getElementById('heroSection').classList.remove('hidden');
             document.getElementById('businessInput').value = '';
             document.getElementById('stepsContainer').innerHTML = '';
-            document.getElementById('businessInput').focus();
+            
+            // Scroll to top on mobile
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+            // Focus input after scroll
+            setTimeout(() => {
+                document.getElementById('businessInput').focus();
+            }, 300);
         }
  
         // Event listeners
