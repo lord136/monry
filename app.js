@@ -28,17 +28,17 @@ const defaultStrategy = strategy(
     'general',
     'General Business',
     [],
-    'Based on your idea, this growth path focuses on offer clarity, lead flow, and repeat revenue.',
+    'This comprehensive growth path is designed to transform any business through systematic execution and market positioning.',
     [
-        ['Clarify the Core Offer', 'Describe the main result you deliver in one clean sentence so buyers understand your business fast.'],
-        ['Pick One Best Customer Segment', 'Choose the customer type that buys fastest and gets the strongest result so your message stays focused.'],
-        ['Build a Signature Package', 'Turn your product or service into a named offer with fixed outcomes, pricing, and proof points.'],
-        ['Create a Daily Lead Engine', 'Use one dependable channel such as WhatsApp, Instagram, referrals, or local outreach every day.'],
-        ['Improve Your First Impression', 'Tighten your page, profile, pitch, and visuals so a new visitor quickly sees trust and clarity.'],
-        ['Add Social Proof Fast', 'Collect customer reviews, before-and-after examples, or short testimonials and place them near every call to action.'],
-        ['Increase Repeat Purchases', 'Add follow-up offers, reminders, and loyalty rewards so existing buyers come back more often.'],
-        ['Systemize the Work', 'Write simple checklists for delivery, lead follow-up, and customer support so the business runs consistently.'],
-        ['Track the Revenue Drivers', 'Review weekly leads, conversion rate, repeat customers, and average order value so you know what to improve next.']
+        ['Clarify Your Market Position', 'Define the exact transformation you deliver and which customer segment values it most. Position yourself as the only logical choice for this specific outcome, not just another vendor competing on price.'],
+        ['Engineer Your Signature Offer', 'Package your core deliverable into a named, priced, and predictable system that customers can buy without hesitation. Include proof elements, clear outcomes, and remove all buyer confusion from the purchase decision.'],
+        ['Build a Predictable Lead System', 'Commit to one primary acquisition channel and reverse-engineer daily lead targets. Whether paid ads, content, partnerships, or outbound—master consistency before adding complexity.'],
+        ['Optimize the Conversion Path', 'Map every touchpoint from stranger to buyer. Fix the leaks in awareness, consideration, decision, and purchase. Most revenue gains come from converting existing traffic better, not finding new traffic.'],
+        ['Install a Retention Engine', 'Design post-purchase sequences that turn customers into repeat buyers. The fastest path to revenue growth is selling more to people who already trust you.'],
+        ['Create Scalable Systems', 'Document, delegate, and automate the repetitive parts of delivery, operations, and customer support. Your business should run without you making every decision.'],
+        ['Leverage Social Proof Strategically', 'Position testimonials, case studies, and results where they influence purchase decisions. Collect proof systematically and deploy it at high-intent moments.'],
+        ['Expand Customer Lifetime Value', 'Add complementary offers, upsells, cross-sells, and continuity programs. Engineer the revenue per customer to grow over time, not just at first purchase.'],
+        ['Build Distribution Leverage', 'Identify who already has your ideal customers and structure partnerships, affiliates, or collaboration models that multiply your reach without multiplying your effort.']
     ]
 );
 
@@ -46,864 +46,363 @@ const strategyCatalog = [
     strategy(
         'restaurant',
         'Food and Restaurant',
-        ['restaurant', 'food', 'dhaba', 'cloud kitchen', 'kitchen', 'meal', 'tiffin', 'catering', 'biryani', 'pizza', 'burger'],
-        'This roadmap focuses on faster table turnover, stronger repeat orders, and local food visibility.',
+        ['restaurant', 'food', 'dhaba', 'cloud kitchen', 'kitchen', 'meal', 'tiffin', 'catering', 'biryani', 'pizza', 'burger', 'dining', 'eatery'],
+        'Restaurant growth is a game of frequency, margin mix, and owning a local radius before trying to scale.',
         [
-            ['Define Your Signature Seller', 'Pick one hero dish or combo that customers instantly remember and mention in reviews and referrals.'],
-            ['Win a Local Radius', 'Target homes, offices, and colleges within your strongest delivery zone before trying to scale citywide.'],
-            ['Fix the Menu Mix', 'Remove slow, low-margin items and push dishes that travel well, photograph well, and keep strong margins.'],
-            ['Engineer a Repeat Offer', 'Bundle lunch plans, family packs, or weekly specials so customers have a reason to order more than once.'],
-            ['Own Google and Maps Search', 'Collect reviews, update food photos, and refresh business details so local buyers find you first.'],
-            ['Make Delivery Packaging Sell', 'Use spill-proof branded packaging that protects quality and leaves a memorable impression.'],
-            ['Push Peak-Hour Promotions', 'Run timed offers during lunch, dinner, and weekends instead of discounting randomly all day.'],
-            ['Build a WhatsApp Retention List', 'Capture repeat buyers into broadcast lists for launches, festival menus, and limited dishes.'],
-            ['Track Item-Level Profitability', 'Review which dishes bring the highest repeat rate, margin, and ratings so your menu evolves around winners.']
+            ['Own a Signature Hero Dish', 'Identify the one item that travels well, photographs beautifully, and creates word-of-mouth. Make it your brand anchor and optimize pricing, packaging, and presentation around this flagship product.'],
+            ['Dominate Your Local Delivery Radius', 'Target a 3-5km zone and become the default choice through hyper-local SEO, Google reviews, and WhatsApp broadcast lists. Depth in one area beats shallow presence across a city.'],
+            ['Fix Your Menu Economics', 'Audit contribution margin by dish. Remove low-margin, slow-moving items. Push high-margin items through staff incentives, menu design, and combo engineering. Your profitability lives in the mix, not just volume.'],
+            ['Engineer Repeat Order Triggers', 'Build subscription meal plans, family bundles, or office catering contracts. Make repeat ordering easier than deciding where to eat each time.'],
+            ['Optimize for Off-Peak Revenue', 'Run targeted promotions during slow hours without training customers to expect discounts during peak times. Time-based offers protect margin while filling capacity.'],
+            ['Build a First-Party Customer List', 'Capture phone numbers at checkout for WhatsApp broadcasts. Own your customer data instead of renting visibility on aggregator platforms.'],
+            ['Master Packaging as Marketing', 'Invest in packaging that protects food quality, reinforces brand memory, and encourages social sharing. Packaging is your sales team after the order leaves the kitchen.'],
+            ['Create Platform Independence', 'Use Zomato and Swiggy for discovery but drive repeat orders to your own channels. High commission platforms should acquire customers, not retain them.'],
+            ['Track Unit Economics Religiously', 'Monitor food cost percentage, labor cost per order, and contribution margin by channel. Make decisions based on numbers, not hunches.']
         ]
     ),
     strategy(
         'cafe',
-        'Cafe',
-        ['cafe', 'coffee', 'espresso', 'coffee shop', 'brew', 'latte'],
-        'This strategy is designed to make your cafe feel like a habit, not just a one-time visit.',
+        'Cafe and Coffee Shop',
+        ['cafe', 'coffee', 'espresso', 'coffee shop', 'brew', 'latte', 'cappuccino', 'barista'],
+        'Cafes succeed by becoming rituals, not transactions. This strategy focuses on frequency, dwell time monetization, and community building.',
         [
-            ['Create a Signature Drink Line', 'Introduce two or three memorable drinks that people associate only with your cafe and post online willingly.'],
-            ['Design a Stay-and-Share Corner', 'Set up one highly photogenic seating area so your customers generate content without being asked.'],
-            ['Drive Morning Repeat Traffic', 'Offer weekday drink subscriptions or breakfast combos to become part of the customer routine.'],
-            ['Optimize Student and Freelancer Offers', 'Package long-stay seating, Wi-Fi, and snack combinations to increase weekday demand.'],
-            ['Build a Local Collaboration Loop', 'Partner with nearby boutiques, studios, and creators for pop-ups that bring fresh audiences in.'],
-            ['Use Seasonal Menu Drops', 'Launch limited drinks tied to weather, festivals, or trends to create urgency and repeat curiosity.'],
-            ['Collect Contact Details at Billing', 'Offer a free cookie upgrade or loyalty benefit in exchange for WhatsApp or Instagram opt-ins.'],
-            ['Sell Take-Home Products', 'Add beans, bottled drinks, gift cards, or merch so your brand keeps earning outside the cafe.'],
-            ['Measure Visit Frequency', 'Track how often regulars return and which time slots underperform so you can adjust staffing and offers.']
+            ['Create Signature Drink Rituals', 'Develop 2-3 unique drinks that customers associate only with your cafe. Make them Instagrammable, name them memorably, and train staff to upsell them as the experience, not just a beverage.'],
+            ['Design for Content Generation', 'Identify one photogenic corner where natural light, aesthetics, and seating create shareable moments. User-generated content is free marketing if you engineer the environment for it.'],
+            ['Build Morning Habit Capture', 'Launch coffee subscriptions or punch cards for weekday regulars. Turn occasional visitors into daily rituals by removing friction and adding predictable value.'],
+            ['Monetize Long-Stay Customers', 'Create packages for students and remote workers that combine seating, Wi-Fi, and snacks. Charge for the workspace value you provide, not just the coffee.'],
+            ['Engineer Seasonal Urgency', 'Drop limited-edition drinks tied to weather, festivals, or trends. Scarcity and newness drive visit frequency better than permanent menus.'],
+            ['Capture Customer Data at Checkout', 'Offer loyalty perks in exchange for WhatsApp or email opt-in. Direct communication channels compound in value over time.'],
+            ['Expand Revenue Beyond the Cup', 'Sell retail products like beans, merch, gift cards, or bottled drinks. Create income streams that don't require customers to sit in your cafe.'],
+            ['Partner with Local Ecosystem', 'Collaborate with nearby boutiques, studios, or co-working spaces for cross-promotions. Shared audiences reduce acquisition costs.'],
+            ['Optimize Table Turn vs Dwell Time', 'Measure revenue per seat-hour, not just revenue per transaction. Balance quick-turn peak hours with long-stay monetization during off-peak.']
         ]
     ),
     strategy(
         'bakery',
-        'Bakery',
-        ['bakery', 'cake', 'pastry', 'bake', 'brownie', 'cupcake', 'dessert'],
-        'This bakery growth path focuses on premium perception, daily freshness, and higher-value custom orders.',
+        'Bakery and Patisserie',
+        ['bakery', 'cake', 'pastry', 'bake', 'brownie', 'cupcake', 'dessert', 'patisserie', 'confectionery'],
+        'Bakery profitability comes from premium positioning, waste reduction, and capturing high-margin custom orders alongside daily fresh counters.',
         [
-            ['Own One Premium Bestseller', 'Choose one cake, brownie box, or pastry item that becomes the product everyone recommends first.'],
-            ['Separate Daily and Celebration Sales', 'Run regular fresh counters for walk-ins while building a higher-margin custom order line.'],
-            ['Show Freshness Publicly', 'Post daily baking batches, oven moments, and same-day inventory stories to increase urgency and trust.'],
-            ['Create Ready-to-Gift Packaging', 'Use attractive boxes and ribbons so customers can buy quickly for gifting without extra effort.'],
-            ['Promote Festival Collections', 'Launch themed assortments around birthdays, anniversaries, and festive gifting cycles.'],
-            ['Shorten Custom Order Response Time', 'Use a fast quote format on WhatsApp so cake inquiries convert before people message other bakeries.'],
-            ['Upsell Add-Ons at Checkout', 'Offer candles, toppers, greeting cards, mini desserts, and party bundles to lift average order value.'],
-            ['Partner with Local Event Sources', 'Build referral relationships with decorators, planners, schools, and office admins.'],
-            ['Track Waste by Product', 'Monitor unsold items by batch and day so you improve forecasting and keep margins healthy.']
+            ['Position One Premium Bestseller', 'Identify your signature product that commands premium pricing and drives referrals. Invest in perfecting this one item before expanding the range.'],
+            ['Separate Impulse from Custom Revenue', 'Run daily fresh counters for walk-in traffic while building a higher-margin custom cake and gifting business. Different customer journeys require different systems.'],
+            ['Show Freshness as a Feature', 'Post daily batch updates, behind-the-scenes baking content, and same-day inventory status. Freshness creates urgency and justifies premium pricing.'],
+            ['Create Gift-Ready Packaging', 'Make products instantly giftable with attractive packaging, ribbons, and greeting cards. Remove friction from the gifting purchase decision.'],
+            ['Engineer Festival Revenue Spikes', 'Plan themed collections around gifting seasons, birthdays, anniversaries, and festivals. Pre-launch marketing ensures production efficiency and maximizes seasonal demand.'],
+            ['Reduce Custom Order Friction', 'Build a fast-quote system on WhatsApp with clear pricing tiers, flavor options, and size charts. Speed to quote wins orders from competitors with slow responses.'],
+            ['Increase Basket Size at Checkout', 'Train staff to suggest complementary items like candles, toppers, cookies, or gift cards. Small upsells compound into significant revenue.'],
+            ['Build B2B Distribution', 'Partner with event planners, corporate gifting services, hotels, and cafes for wholesale or partnership deals. One B2B relationship can match many B2C orders.'],
+            ['Track Waste by Product and Day', 'Monitor unsold inventory patterns to improve forecasting. Waste directly erodes margin—treat forecasting as a competitive advantage.']
         ]
     ),
     strategy(
         'boutique',
-        'Clothing and Fashion Boutique',
-        ['boutique', 'clothing', 'fashion', 'apparel', 'kurti', 'saree', 'dress', 'garment', 'wear'],
-        'This plan focuses on making your collection feel curated, premium, and easy to buy repeatedly.',
+        'Fashion Boutique',
+        ['boutique', 'clothing', 'fashion', 'apparel', 'kurti', 'saree', 'dress', 'garment', 'wear', 'ethnic', 'designer'],
+        'Fashion retail thrives on curation, styling confidence, and turning one-time buyers into repeat customers through relationship and occasion-based marketing.',
         [
-            ['Define a Sharp Style Identity', 'Own one style direction such as festive ethnic, office wear, or statement casual.'],
-            ['Build Collection Drops', 'Release products in curated mini-launches so new arrivals feel exciting and easier to market.'],
-            ['Use Body-Type Friendly Selling', 'Create content showing fit, drape, and styling on different body types to reduce hesitation.'],
-            ['Strengthen Trial and Styling Support', 'Offer styling suggestions in-store or through chat so buyers feel confident buying complete looks.'],
-            ['Push Occasion-Based Marketing', 'Promote outfits around weddings, office events, vacations, and festivals rather than generic sales posts.'],
-            ['Capture Repeat Buyers', 'Maintain a VIP customer list for early previews, restock alerts, and private promotions.'],
-            ['Increase Basket Size', 'Pair primary outfits with jewelry, dupattas, bags, or footwear suggestions in every sale conversation.'],
-            ['Use Creator and Customer Content', 'Post real people wearing your pieces so the brand feels more trustworthy and wearable.'],
-            ['Track Best-Selling Silhouettes', 'Identify which cuts, fabrics, and price ranges convert fastest so future buying decisions improve.']
+            ['Define a Sharp Style Identity', 'Own one style lane: festive ethnic, workwear, sustainable casual, or statement pieces. Specificity beats breadth when building a memorable brand.'],
+            ['Launch Collection Drops, Not Random Inventory', 'Release curated mini-collections that create launch momentum and storytelling opportunities. Drops generate urgency and reduce decision fatigue.'],
+            ['Solve the Fit Confidence Problem', 'Show how pieces look on different body types through content and in-store styling. The faster you remove fit anxiety, the faster customers buy.'],
+            ['Offer Styling as a Service', 'Train staff or create digital lookbooks that help customers build complete outfits. Styling support increases basket size and reduces returns.'],
+            ['Market Around Occasions, Not Features', 'Promote outfits for weddings, corporate events, vacation travel, or festivals. Occasion-based marketing creates urgency and relevance.'],
+            ['Build a VIP Repeat Customer System', 'Maintain a personal CRM for high-value buyers. Send early access, restock alerts, and private previews to your best customers.'],
+            ['Bundle Primary and Accessory Sales', 'Suggest jewelry, bags, footwear, or dupattas with every outfit. Complete-the-look selling increases average order value naturally.'],
+            ['Leverage Customer and Creator Content', 'Repost customers wearing your pieces. Real people in your clothes build trust faster than brand photography alone.'],
+            ['Analyze Best-Performing Silhouettes', 'Track which cuts, fabrics, and price points convert fastest. Use data to inform future buying decisions and reduce unsold inventory.']
         ]
     ),
     strategy(
         'salon',
         'Salon and Beauty',
-        ['salon', 'beauty', 'spa', 'makeup', 'hair', 'facial', 'nail', 'skincare'],
-        'This growth track is built around recurring appointments, premium services, and stronger beauty trust.',
+        ['salon', 'beauty', 'spa', 'makeup', 'hair', 'facial', 'nail', 'skincare', 'parlour', 'grooming'],
+        'Beauty businesses scale through recurring appointments, premium service packaging, and trust-building through visible transformations.',
         [
-            ['Position Around a Transformation', 'Lead with visible outcomes such as bridal glow, hair recovery, or premium grooming.'],
-            ['Package High-Value Services', 'Bundle treatments into monthly care plans so customers buy consistency rather than one-off appointments.'],
-            ['Fill Off-Peak Slots Smartly', 'Offer weekday specials for quieter hours to keep staff utilization high without discounting prime times.'],
-            ['Show Before-and-After Results', 'Document real client transformations with permission so new buyers see proof before they book.'],
-            ['Automate Rebooking', 'Prompt each customer to book the next visit before leaving, especially for hair, skin, and nails.'],
-            ['Build Bridal and Event Pipelines', 'Partner with photographers, wedding planners, and boutique stores that can feed you premium clients.'],
-            ['Upsell Home-Care Products', 'Recommend products tied to the service performed so your retail sales feel credible and useful.'],
-            ['Create VIP Memberships', 'Offer priority slots, exclusive treatments, and bundle savings for repeat loyal clients.'],
-            ['Track Therapist and Service Profitability', 'Review rebooking rate, product attachment, and revenue by staff member and service type.']
+            ['Position Around a Clear Transformation', 'Lead with specific outcomes: bridal glow, hair recovery, anti-aging skincare, or grooming confidence. Clarity on the result attracts the right customers.'],
+            ['Package Services into Programs', 'Bundle treatments into 4-week or 12-week programs that deliver results through consistency. Programs create predictable revenue and better client outcomes than one-off services.'],
+            ['Fill Low-Demand Slots Strategically', 'Offer weekday or off-peak specials without training customers to avoid peak times. Discounting should fill capacity, not subsidize demand that would happen anyway.'],
+            ['Document Before-and-After Proof', 'Capture transformations with client permission and showcase them where prospects make booking decisions. Visual proof beats claims every time.'],
+            ['Automate Rebooking at Checkout', 'Book the next appointment before the client leaves. Recurring services like hair, nails, and skincare should have rebooking as part of the checkout process.'],
+            ['Build Bridal and Event Pipelines', 'Partner with wedding planners, photographers, and boutiques to access high-value clients planning significant events. One bridal client can bring an entire wedding party.'],
+            ['Monetize Home-Care Product Recommendations', 'Sell retail products that extend service results at home. Product recommendations from the service provider carry trust and increase revenue per client.'],
+            ['Create VIP Membership Tiers', 'Offer priority booking, exclusive treatments, and bundled pricing to reward loyalty and create recurring revenue streams.'],
+            ['Track Therapist Performance and Rebooking', 'Monitor which staff members generate the highest rebooking rates and product attachment. Reward and replicate what works.']
         ]
     ),
     strategy(
         'gym',
         'Gym and Fitness Studio',
-        ['gym', 'fitness', 'workout', 'zumba', 'yoga', 'pilates', 'training', 'crossfit'],
-        'This plan is aimed at higher retention, stronger referrals, and a fitness brand people stay committed to.',
+        ['gym', 'fitness', 'workout', 'zumba', 'yoga', 'pilates', 'training', 'crossfit', 'studio', 'health'],
+        'Fitness businesses win through retention engineering, transformation marketing, and building accountability systems that keep members committed.',
         [
-            ['Own a Specific Transformation Goal', 'Market your gym around fat loss, strength, women-only fitness, or beginner confidence.'],
-            ['Fix the First 30 Days', 'Design onboarding, assessment, and coach follow-up so new members do not disappear after week one.'],
-            ['Use Program-Based Memberships', 'Sell structured 6-week or 12-week results programs instead of only open-access memberships.'],
-            ['Create Accountability Loops', 'Use check-ins, attendance nudges, and WhatsApp groups to keep members emotionally committed.'],
-            ['Show Real Client Wins', 'Post measurable progress stories with photos, stats, or testimonials to improve social proof.'],
-            ['Monetize Nutrition Guidance', 'Add meal-planning or habit-coaching upgrades that increase results and lifetime value.'],
-            ['Launch Referral Challenges', 'Reward existing members for bringing friends during limited-time transformation campaigns.'],
-            ['Sell Merchandise and Add-Ons', 'Offer branded gear, supplements, classes, or personal training as relevant upsells.'],
-            ['Track Retention by Cohort', 'Monitor how many members stay after 30, 60, and 90 days so you see where drop-off starts.']
+            ['Own a Specific Transformation Goal', 'Position your gym around fat loss, strength building, women-only fitness, or beginner confidence. Specificity attracts committed customers over tire-kickers.'],
+            ['Engineer the First 30-Day Experience', 'Design onboarding, assessment, and follow-up sequences that prevent new member drop-off. Most churn happens in the first month—fix the experience here.'],
+            ['Sell Structured Transformation Programs', 'Offer 6-week or 12-week results-based programs with check-ins and milestones. Programs create accountability and justify premium pricing over commodity memberships.'],
+            ['Build Multi-Layer Accountability', 'Use coach check-ins, attendance tracking, WhatsApp groups, and buddy systems to keep members engaged. Emotional commitment drives consistency more than access alone.'],
+            ['Show Real Member Transformations', 'Post measurable progress with photos, stats, and testimonials. Social proof demonstrates your methodology works and attracts similar prospects.'],
+            ['Add Nutrition and Habit Coaching', 'Sell meal planning or behavior coaching as premium add-ons. Results come from combined effort—capture the value you create beyond just workouts.'],
+            ['Engineer Member Referrals', 'Run limited-time referral challenges with meaningful rewards. Your best members are your best acquisition channel if you activate them.'],
+            ['Monetize Merchandise and Add-Ons', 'Sell branded gear, supplements, personal training, and specialty classes. Multiple revenue streams reduce dependence on membership fees alone.'],
+            ['Track Retention Metrics Weekly', 'Monitor attendance rates, freeze requests, and cancellation patterns. Early warning signals let you intervene before members ghost.']
         ]
     ),
     strategy(
-        'coaching',
-        'Coaching and Tuition',
-        ['coaching', 'tuition', 'teacher', 'academy', 'course', 'training institute', 'education', 'classes'],
-        'This strategy focuses on proof-based enrollment, student outcomes, and parent trust.',
+        'ecommerce',
+        'E-Commerce Store',
+        ['ecommerce', 'online store', 'shopify', 'amazon', 'marketplace', 'dropshipping', 'online retail', 'digital store'],
+        'E-commerce profitability comes from customer acquisition cost efficiency, conversion rate optimization, and maximizing lifetime value through retention.',
         [
-            ['Pick a Clear Student Outcome', 'Lead with exam success, language fluency, job readiness, or concept mastery so the promise feels concrete.'],
-            ['Segment by Student Type', 'Separate beginner, intermediate, topper, and remedial messaging instead of speaking to everyone the same way.'],
-            ['Offer a Strong Demo Experience', 'Design trial classes that immediately show teaching quality, structure, and confidence.'],
-            ['Publish Results and Proof', 'Show score improvements, student wins, testimonials, and classroom moments to build trust.'],
-            ['Build Parent Communication', 'Send simple progress updates that make your coaching feel accountable and premium.'],
-            ['Create Referral Momentum', 'Encourage current students to bring classmates with incentives tied to enrollment or renewal.'],
-            ['Bundle Complementary Products', 'Add worksheets, doubt sessions, crash courses, or mock tests to raise value per student.'],
-            ['Systemize Student Tracking', 'Record attendance, weak topics, and follow-up actions so performance support is consistent.'],
-            ['Measure Enrollment Source Quality', 'Track which leads from reels, local ads, school tie-ups, or referrals convert best.']
+            ['Find Product-Market Fit Through Testing', 'Launch with a focused product set and validate demand before expanding inventory. Cash flow dies in unsold inventory—test before you invest.'],
+            ['Master One Acquisition Channel', 'Choose between paid ads, SEO, influencer partnerships, or marketplaces and become exceptional at one before diversifying. Mediocrity across channels loses to mastery in one.'],
+            ['Optimize for Conversion, Not Just Traffic', 'A/B test product pages, checkout flow, trust signals, and pricing presentation. Most stores leave 30-50% revenue on the table through poor conversion optimization.'],
+            ['Build an Email and SMS Revenue Engine', 'Capture contact information and create automated sequences for cart abandonment, post-purchase upsells, and re-engagement. Owned channels compound in value.'],
+            ['Increase Average Order Value Systematically', 'Use bundles, quantity discounts, free shipping thresholds, and cross-sell recommendations. Small AOV improvements create massive profit increases.'],
+            ['Engineer Repeat Purchase Behavior', 'Launch subscription models, loyalty programs, or replenishment reminders for consumable products. Customer acquisition is expensive—monetize retention.'],
+            ['Reduce Return Rates and Friction', 'Clear product descriptions, sizing guides, and customer photos reduce returns. Returns destroy margin—prevention is far more profitable than processing.'],
+            ['Expand Through Customer Data', 'Analyze purchase patterns, cohort behavior, and product affinity to inform new product launches and marketing angles. Data-driven expansion beats intuition.'],
+            ['Build Brand Equity Beyond Price', 'Create content, community, or values-driven positioning that justifies premium pricing. Competing on price alone is a race to zero margin.']
         ]
     ),
     strategy(
-        'real-estate',
-        'Real Estate',
-        ['real estate', 'property', 'broker', 'realtor', 'plots', 'apartment', 'flat', 'villa'],
-        'This roadmap is designed to increase serious buyer trust and shorten your sales cycle.',
+        'saas',
+        'SaaS and Software',
+        ['saas', 'software', 'app', 'platform', 'subscription', 'tech', 'b2b software', 'enterprise'],
+        'SaaS growth is driven by reducing time-to-value, optimizing onboarding, and expanding revenue within existing accounts.',
         [
-            ['Own a Niche Market', 'Focus on one category such as rentals, investor plots, premium apartments, or first-time buyers.'],
-            ['Build Area Authority', 'Publish hyper-local insights about pricing, road access, schools, rentals, and future development.'],
-            ['Qualify Leads Early', 'Use a simple screening process for budget, location, and timeline so you spend time on serious prospects.'],
-            ['Improve Listing Presentation', 'Upgrade photos, short videos, and copy so each property feels easier to imagine and trust.'],
-            ['Use WhatsApp Follow-Up Sequences', 'Send organized property options, reminders, and next steps so leads do not go cold.'],
-            ['Host Guided Site Visits', 'Turn visits into structured consultative experiences instead of casual walkthroughs.'],
-            ['Build Referral Partnerships', 'Connect with builders, loan agents, lawyers, and relocation networks that can send qualified clients.'],
-            ['Document Social Proof', 'Collect buyer testimonials and closed-deal stories to reduce risk perception for new clients.'],
-            ['Track Closings by Source', 'Measure which ad channels, brokers, or partnerships create the most profitable closed deals.']
+            ['Define a Clear Value Metric', 'Position your pricing around the value customers receive, not features or users. Value-based pricing captures more of the value you create.'],
+            ['Reduce Time-to-First-Value', 'Shorten the path from signup to the moment users experience your core benefit. Fast activation drives retention and word-of-mouth.'],
+            ['Build Self-Service Onboarding', 'Create product tours, templates, and interactive guides that get users productive without sales handholding. Self-service scales, custom onboarding doesn't.'],
+            ['Optimize Trial-to-Paid Conversion', 'Identify where trial users drop off and remove friction. Most SaaS companies focus on acquisition while leaving massive conversion improvements on the table.'],
+            ['Create Expansion Revenue Paths', 'Design pricing tiers, usage-based upgrades, and add-on features that grow revenue within existing accounts. Net revenue retention over 100% powers compounding growth.'],
+            ['Engineer Product-Led Growth Loops', 'Build viral mechanisms, collaboration features, or integrations that make your product more valuable when more people use it. PLG reduces CAC while scaling distribution.'],
+            ['Reduce Churn Through Usage Analytics', 'Monitor leading indicators of churn like declining login frequency or feature usage. Proactive intervention saves accounts before they cancel.'],
+            ['Build Content That Educates Your Market', 'Create SEO-optimized content that solves problems your product addresses. Educational content builds pipeline while improving search visibility.'],
+            ['Develop Partner and Integration Ecosystems', 'Build integrations with complementary tools and create partnership programs. Strategic partnerships multiply reach without multiplying spend.']
         ]
     ),
     strategy(
         'agency',
-        'Digital Marketing Agency',
-        ['digital marketing', 'agency', 'seo', 'ads', 'social media', 'performance marketing', 'branding'],
-        'This agency strategy is built around better positioning, stronger retainers, and visible client outcomes.',
+        'Agency and Services',
+        ['agency', 'marketing', 'consulting', 'services', 'freelance', 'creative', 'digital agency', 'advertising'],
+        'Service businesses scale by specializing deeply, productizing delivery, and creating leverage through systems and team.',
         [
-            ['Choose a Service Wedge', 'Lead with one sharp service like lead generation, Instagram growth, or local SEO first.'],
-            ['Pick One Buyer Segment', 'Target one client type such as clinics, coaches, restaurants, or ecommerce brands.'],
-            ['Productize the Offer', 'Turn your service into a clearly named package with deliverables, timeline, and expected outcome.'],
-            ['Lead With Case Study Selling', 'Use past results to show metrics and prove you can execute.'],
-            ['Build an Outreach Engine', 'Run disciplined outbound through email, LinkedIn, and WhatsApp with personalized hooks and proof.'],
-            ['Improve Proposal Close Rate', 'Shorten proposals, focus on outcomes, and remove vague marketing jargon that slows decisions.'],
-            ['Protect Retainers With Reporting', 'Send clean monthly reports that connect your work to leads, sales, or visibility.'],
-            ['Upsell Adjacent Services', 'Offer landing pages, content systems, or ad creative once the core service proves value.'],
-            ['Track Client Payback Period', 'Know how quickly each client becomes profitable and which niches stay the longest.']
+            ['Specialize in a Vertical Niche', 'Focus on one industry or customer type where you can develop deep expertise and premium positioning. Specialists command higher fees than generalists.'],
+            ['Productize Your Core Service', 'Package deliverables into fixed-scope, fixed-price offerings with clear outcomes. Productization enables scaling beyond hourly billing.'],
+            ['Build a Repeatable Delivery System', 'Document processes, create templates, and systematize client work so delivery doesn't depend on you personally. Systems create capacity for growth.'],
+            ['Shift from Labor to Leverage', 'Move from trading time for money to outcome-based pricing that captures value created, not hours worked. Premium pricing requires value positioning, not just execution.'],
+            ['Create a Signature Methodology', 'Develop a named framework or process that differentiates your approach. A methodology becomes your intellectual property and marketing asset.'],
+            ['Build Predictable Lead Generation', 'Invest in content, partnerships, or outbound systems that generate consistent pipeline. Feast-or-famine cycles kill agency growth.'],
+            ['Engineer Client Retention and Expansion', 'Design service packages with natural upsells, cross-sells, and retainer extensions. The best clients are the ones you already have.'],
+            ['Develop Case Studies and Proof', 'Document results systematically and position them where prospects make buying decisions. Results-driven case studies close deals faster than capabilities decks.'],
+            ['Build Team and Culture Systems', 'Hire, train, and retain talent through clear processes and strong culture. Your business scales when your team can deliver without you.']
+        ]
+    ),
+    strategy(
+        'education',
+        'Education and Coaching',
+        ['education', 'coaching', 'training', 'online course', 'tuition', 'academy', 'learning', 'teaching', 'school', 'classes'],
+        'Education businesses thrive through proven transformations, completion rates, and turning students into advocates who bring more students.',
+        [
+            ['Position Around a Specific Outcome', 'Be known for delivering one measurable result: exam scores, career transitions, skill mastery, or certification. Outcome clarity attracts committed students.'],
+            ['Design for Completion, Not Just Enrollment', 'Structure your program with accountability, milestones, and engagement mechanisms that prevent drop-off. Completion drives results, results drive referrals.'],
+            ['Build Social Proof Through Student Wins', 'Showcase before-and-after transformations, test scores, career placements, or skill demonstrations. Proof is your best marketing asset.'],
+            ['Create Tiered Pricing and Access', 'Offer self-paced, group, and premium one-on-one options at different price points. Tiered pricing captures different willingness to pay.'],
+            ['Engineer Cohort-Based Learning', 'Launch courses in fixed cohorts rather than evergreen enrollment. Cohorts create peer accountability and drive completion through community.'],
+            ['Reduce Time-to-First-Win', 'Help students achieve a quick, meaningful win early in the program. Early wins build momentum and reduce drop-off.'],
+            ['Monetize Alumni and Advanced Training', 'Create advanced programs, certifications, or mastermind groups for graduates. Lifetime value extends beyond the first course.'],
+            ['Build Referral Systems into Completion', 'Reward students for bringing others after they finish. Your best marketing comes from people who have experienced the transformation.'],
+            ['Develop Corporate and B2B Revenue', 'Package your training for corporate clients, institutions, or licensing deals. B2B contracts create more predictable revenue than individual student enrollment.']
+        ]
+    ),
+    strategy(
+        'healthcare',
+        'Healthcare and Wellness',
+        ['healthcare', 'clinic', 'doctor', 'medical', 'wellness', 'therapy', 'hospital', 'physiotherapy', 'dentist', 'health'],
+        'Healthcare practices grow through patient retention, outcome-focused marketing, and building trust-based referral systems.',
+        [
+            ['Position Around Health Outcomes', 'Lead with the transformations you create: pain elimination, mobility restoration, preventive care, or quality of life improvement. Patients buy outcomes, not appointments.'],
+            ['Design Patient Journey for Continuity', 'Build treatment protocols that require follow-ups and create natural next appointments. Continuity improves outcomes and lifetime value.'],
+            ['Build Educational Content Authority', 'Create content that answers patient questions and positions you as the expert. Educational marketing builds trust before the first appointment.'],
+            ['Optimize Appointment Scheduling', 'Remove friction from booking, rescheduling, and reminders. Every point of friction costs you patients and revenue.'],
+            ['Engineer Patient Referrals', 'Ask satisfied patients for referrals at the right moment and make it easy for them to recommend you. Referrals are your highest-quality acquisition channel.'],
+            ['Create Preventive Care Programs', 'Package wellness check-ups, maintenance visits, or preventive screenings into membership or subscription models. Recurring revenue improves both business stability and patient outcomes.'],
+            ['Build Insurance and Corporate Partnerships', 'Develop relationships with insurance panels, corporate wellness programs, or employer health benefits. Partnership channels multiply patient acquisition.'],
+            ['Invest in Patient Experience', 'Optimize wait times, communication quality, follow-up care, and environment. Exceptional experience drives retention and word-of-mouth in healthcare.'],
+            ['Track Patient Outcomes and Satisfaction', 'Monitor treatment effectiveness, patient satisfaction scores, and referral rates. Outcome data informs both clinical improvement and marketing messaging.']
+        ]
+    ),
+    strategy(
+        'realestate',
+        'Real Estate',
+        ['real estate', 'property', 'realtor', 'broker', 'construction', 'developer', 'housing', 'builder', 'plots'],
+        'Real estate success comes from trusted relationships, local market authority, and building systems that generate consistent buyer and seller leads.',
+        [
+            ['Own a Geographic or Property Niche', 'Become the go-to expert for a specific neighborhood, property type, or buyer segment. Deep specialization beats broad generalist positioning.'],
+            ['Build Local Market Authority', 'Create content about local market trends, pricing analysis, and neighborhood guides. Authority positioning attracts both buyers and sellers.'],
+            ['Develop a Consistent Lead Generation System', 'Invest in SEO, paid ads, referral programs, or partnerships that create predictable pipeline. Inconsistent lead flow creates revenue volatility.'],
+            ['Engineer Fast Response Systems', 'Speed to lead contact is the single biggest driver of conversion in real estate. Automate initial responses and prioritize immediate follow-up.'],
+            ['Showcase Properties Through Premium Content', 'Invest in professional photography, video tours, and staging. High-quality presentation differentiates properties and justifies premium pricing.'],
+            ['Build a Referral and Past Client System', 'Stay in touch with past clients through market updates, holiday greetings, and home value reports. Repeat and referral business has the lowest acquisition cost.'],
+            ['Create Buyer and Seller Education', 'Develop guides, workshops, or consultations that educate first-time buyers or sellers. Education builds trust and positions you as the advisor, not just the transaction facilitator.'],
+            ['Partner with Related Service Providers', 'Build relationships with mortgage brokers, inspectors, contractors, and moving companies. Cross-referrals create consistent lead flow.'],
+            ['Track Lead Source ROI', 'Monitor which marketing channels generate the highest-quality leads at the lowest cost. Double down on what works and cut what doesn't.']
+        ]
+    ),
+    strategy(
+        'automotive',
+        'Automotive and Vehicle Services',
+        ['automotive', 'car', 'vehicle', 'garage', 'mechanic', 'auto repair', 'service center', 'detailing', 'workshop'],
+        'Automotive service businesses thrive through customer retention, preventive maintenance programs, and building trust through transparent service.',
+        [
+            ['Build Trust Through Transparency', 'Show customers what needs fixing, why it matters, and what it costs before work begins. Transparency differentiates you in an industry known for distrust.'],
+            ['Create Service Reminder Systems', 'Automate follow-ups for oil changes, tire rotations, and seasonal maintenance. Proactive reminders increase retention and lifetime value.'],
+            ['Package Preventive Maintenance Plans', 'Bundle regular services into annual or mileage-based packages with predictable pricing. Packages create recurring revenue and reduce churn.'],
+            ['Offer Convenience and Speed', 'Provide pickup/drop-off, mobile service, or express lanes for routine maintenance. Convenience justifies premium pricing and builds loyalty.'],
+            ['Build Local Reputation Through Reviews', 'Systematically collect Google and online reviews from satisfied customers. New customers choose service providers based on ratings and review volume.'],
+            ['Educate on Preventive vs Emergency Repairs', 'Help customers understand how preventive maintenance saves money long-term. Educational selling reduces price resistance and improves customer outcomes.'],
+            ['Create Specialty Service Lines', 'Develop expertise in specific vehicle types, restoration, performance upgrades, or detailing. Specialization commands higher margins than commodity oil changes.'],
+            ['Partner with Fleet and Corporate Accounts', 'Pursue contracts with businesses that maintain vehicle fleets. B2B relationships create more predictable revenue than individual consumer services.'],
+            ['Track Customer Lifecycle and Frequency', 'Monitor how often customers return and identify at-risk accounts before they churn. Retention is cheaper than acquisition in automotive services.']
+        ]
+    ),
+    strategy(
+        'freelance',
+        'Freelancing and Personal Services',
+        ['freelance', 'freelancer', 'independent', 'contractor', 'gig', 'self-employed', 'consultant', 'writer', 'designer', 'developer'],
+        'Freelancing scales through specialization, value-based pricing, and building systems that generate consistent high-quality leads.',
+        [
+            ['Niche Down to Stand Out', 'Focus on serving one type of client or solving one specific problem exceptionally well. Specialists charge more and attract better clients than generalists.'],
+            ['Shift from Hourly to Value Pricing', 'Price based on the value you create, not the hours you work. Value pricing captures more of the impact you generate.'],
+            ['Build a Portfolio of Proof', 'Document your best work with results, testimonials, and case studies. Social proof is your most powerful sales asset.'],
+            ['Create Productized Service Offerings', 'Package your services into fixed-scope deliverables with clear pricing. Productization makes buying easier and selling more scalable.'],
+            ['Develop Multiple Lead Sources', 'Build pipeline through content, referrals, platforms, and outreach. Diversified lead generation reduces income volatility.'],
+            ['Build Long-Term Client Relationships', 'Turn one-off projects into ongoing retainers or repeat work. Retention is more profitable than constantly finding new clients.'],
+            ['Increase Your Effective Hourly Rate', 'Systematize your process, build templates, and leverage tools to deliver more value in less time. Your income scales when you work smarter, not just harder.'],
+            ['Position as an Expert, Not a Vendor', 'Share insights, create content, and demonstrate expertise publicly. Expert positioning attracts better clients who value your judgment, not just your execution.'],
+            ['Build Passive Income Streams', 'Create digital products, courses, or templates that generate revenue without trading time. Passive income creates financial stability and optionality.']
+        ]
+    ),
+    strategy(
+        'retail',
+        'Retail Store',
+        ['retail', 'shop', 'store', 'showroom', 'outlet', 'mart', 'supermarket', 'general store', 'kirana'],
+        'Retail profitability comes from inventory turnover, basket size optimization, and building customer loyalty through experience and convenience.',
+        [
+            ['Optimize Product Mix for Margin', 'Carry products based on contribution margin, not just revenue. High-turnover, high-margin items should get premium placement and focus.'],
+            ['Increase Basket Size Systematically', 'Use cross-merchandising, bundles, and staff training to increase items per transaction. Small basket size increases compound into significant revenue.'],
+            ['Build Customer Loyalty Programs', 'Reward repeat purchases through points, discounts, or exclusive access. Loyalty programs increase lifetime value and reduce price sensitivity.'],
+            ['Optimize Store Layout for Sales', 'Place high-margin impulse purchases near checkout, create clear pathways, and use visual merchandising to guide customer behavior.'],
+            ['Reduce Inventory Carrying Costs', 'Monitor turnover rates and eliminate slow-moving stock. Cash tied up in unsold inventory kills profitability.'],
+            ['Create Seasonal and Event-Based Promotions', 'Drive traffic through strategic promotions around festivals, seasons, and local events. Planned promotions are more profitable than reactive discounting.'],
+            ['Build Omnichannel Presence', 'Add online ordering, WhatsApp catalogs, or home delivery to complement physical retail. Convenience drives loyalty in competitive markets.'],
+            ['Train Staff for Suggestive Selling', 'Teach employees to recommend complementary products and upsells naturally. Well-trained staff increase revenue without additional marketing spend.'],
+            ['Track Sales by Category and Time', 'Analyze which products sell best during which periods to optimize purchasing, staffing, and promotional planning.']
+        ]
+    ),
+    strategy(
+        'manufacturing',
+        'Manufacturing and Production',
+        ['manufacturing', 'factory', 'production', 'fabrication', 'industrial', 'plant', 'workshop', 'printing'],
+        'Manufacturing businesses scale through capacity utilization, margin improvement, and developing direct customer relationships or distribution channels.',
+        [
+            ['Optimize Capacity Utilization', 'Maximize the productive output of your equipment and labor. Unused capacity is wasted fixed cost—fill it with profitable work.'],
+            ['Reduce Production Waste', 'Implement lean manufacturing principles to minimize material waste, rework, and inefficiency. Margin improvement often comes from waste reduction, not price increases.'],
+            ['Develop Direct Customer Relationships', 'Build branded consumer products or B2B direct sales to capture more margin than wholesale or white-label production.'],
+            ['Create Inventory and Cash Flow Systems', 'Optimize raw material purchasing, production scheduling, and finished goods inventory to improve working capital efficiency.'],
+            ['Invest in Quality Control', 'Reduce defects and returns through systematic quality processes. Quality issues destroy margin and reputation faster than they can be recovered.'],
+            ['Build Predictable Order Flow', 'Secure long-term contracts, retainer arrangements, or subscription-based production schedules. Predictable orders enable better planning and margins.'],
+            ['Add Value-Added Services', 'Offer design, customization, or finishing services that differentiate you from commodity producers and justify premium pricing.'],
+            ['Develop Distribution Partnerships', 'Build relationships with distributors, retailers, or e-commerce platforms that multiply your reach without requiring direct sales effort.'],
+            ['Track Production Efficiency Metrics', 'Monitor output per labor hour, material yield rates, and defect percentages. Data-driven improvement compounds over time.']
+        ]
+    ),
+    strategy(
+        'hospitality',
+        'Hospitality and Hotels',
+        ['hotel', 'resort', 'hospitality', 'guest house', 'homestay', 'hostel', 'accommodation', 'lodging'],
+        'Hospitality businesses grow through occupancy optimization, direct booking channels, and creating experiences that drive repeat visits and referrals.',
+        [
+            ['Optimize Occupancy Through Dynamic Pricing', 'Adjust rates based on demand, seasonality, and local events. Revenue management is the fastest path to profitability improvement.'],
+            ['Build Direct Booking Channels', 'Drive bookings to your own website or phone to avoid OTA commissions. Direct bookings have higher margins and enable better customer relationships.'],
+            ['Create Signature Guest Experiences', 'Develop unique amenities, services, or moments that guests remember and share. Differentiated experiences justify premium rates and drive word-of-mouth.'],
+            ['Maximize Revenue Per Available Room', 'Add upsells like breakfast packages, spa services, experiences, or room upgrades to increase revenue beyond just room rates.'],
+            ['Build Corporate and Group Business', 'Develop relationships with companies, event planners, and travel agencies for predictable block bookings.'],
+            ['Invest in Online Reputation', 'Actively manage reviews on Google, TripAdvisor, and OTAs. Online reputation directly impacts booking conversion rates.'],
+            ['Create Loyalty and Repeat Visit Programs', 'Reward returning guests with perks, discounts, or exclusive benefits. Repeat guests have lower acquisition costs and higher lifetime value.'],
+            ['Optimize Off-Season Revenue', 'Create packages, experiences, or events that drive bookings during traditionally slow periods. Unused rooms are perishable inventory.'],
+            ['Track Guest Satisfaction and Net Promoter', 'Monitor satisfaction scores and identify improvement opportunities. Happy guests become your marketing engine through reviews and referrals.']
         ]
     ),
     strategy(
         'photography',
         'Photography and Videography',
-        ['photography', 'photographer', 'videography', 'video', 'wedding shoot', 'camera', 'studio'],
-        'This plan focuses on premium positioning, stronger referrals, and more profitable booking calendars.',
+        ['photography', 'photographer', 'videography', 'video', 'wedding photography', 'studio', 'photo', 'cinematography'],
+        'Creative service businesses scale through premium positioning, productized packages, and building recurring revenue through relationships and content creation.',
         [
-            ['Choose Your Booking Niche', 'Specialize in weddings, maternity, brand shoots, reels, or family sessions.'],
-            ['Curate a Conversion Portfolio', 'Show only your best work in the exact category you want to book more of.'],
-            ['Simplify Packages', 'Offer clear shoot tiers with add-ons so buyers compare value quickly without confusion.'],
-            ['Speed Up Inquiry Response', 'Reply with a polished quote flow on WhatsApp or Instagram before the lead contacts another creator.'],
-            ['Turn Delivery Into Marketing', 'Package final photos or videos in a shareable way that naturally drives tags and referrals.'],
-            ['Partner With Local Vendors', 'Build relationships with makeup artists, planners, venues, and boutiques that serve the same customers.'],
-            ['Create Content From Every Shoot', 'Turn client work into reels, behind-the-scenes clips, and testimonial snippets.'],
-            ['Upsell Albums and Reels', 'Offer premium edits, prints, teaser reels, and highlight packages after trust is established.'],
-            ['Track Revenue Per Shoot Type', 'Compare margin, referral rate, and repeat value across different project categories.']
+            ['Specialize in a Profitable Niche', 'Focus on weddings, corporate, product, or real estate photography. Specialists command higher rates than generalists who shoot everything.'],
+            ['Build a Premium Portfolio', 'Showcase only your absolute best work. Your portfolio is your sales team—every image should demonstrate the quality clients are paying for.'],
+            ['Create Packaged Service Tiers', 'Offer good-better-best packages with clear inclusions and pricing. Tiered packages make buying easier and increase average order value.'],
+            ['Develop Upsell and Add-On Systems', 'Sell albums, prints, extended coverage, or additional edits at higher margins than the core photography package.'],
+            ['Build Referral and Repeat Systems', 'Stay in touch with past clients for anniversaries, family updates, or events. Referrals and repeat business have the lowest acquisition cost.'],
+            ['Create Content Marketing Assets', 'Share behind-the-scenes, tips, and showcase work on social media. Consistent content attracts clients organically.'],
+            ['Partner with Related Vendors', 'Build relationships with wedding planners, venues, florists, or real estate agents who can refer clients to you.'],
+            ['Streamline Workflow and Delivery', 'Use templates, presets, and systems to deliver consistently excellent work efficiently. Efficiency allows you to serve more clients profitably.'],
+            ['Diversify Revenue Streams', 'Add workshops, presets, stock photography, or equipment rentals to create income beyond client bookings.']
         ]
     ),
     strategy(
-        'jewelry',
-        'Jewelry',
-        ['jewelry', 'jewellery', 'gold', 'silver', 'diamond', 'rings', 'necklace', 'bangles'],
-        'This jewelry roadmap is designed to increase trust, gifting demand, and premium purchase confidence.',
+        'eventplanning',
+        'Event Planning',
+        ['event', 'wedding', 'party', 'planner', 'event management', 'celebration', 'decorator', 'catering'],
+        'Event businesses thrive through specialization, vendor relationships, and building systems that deliver consistent quality while capturing more margin.',
         [
-            ['Clarify Your Design Identity', 'Lead with bridal, daily wear, handcrafted, silver, or custom luxury so your brand feels intentional.'],
-            ['Build Trust Around Quality', 'Explain material purity, making process, certification, and care in buyer-friendly language.'],
-            ['Create Occasion Collections', 'Launch edits tied to weddings, anniversaries, gifting, and festivals to align with purchase moments.'],
-            ['Use Close-Up Visual Selling', 'Invest in high-detail photos and videos that show texture, shine, and scale clearly.'],
-            ['Offer Styling Assistance', 'Help buyers pair pieces with outfits or occasions so the sale feels easier and more personal.'],
-            ['Promote Customization', 'Use initials, birthstones, names, or design tweaks to create higher-margin bespoke orders.'],
-            ['Build High-Intent Follow-Up', 'Stay in touch with serious buyers who save or inquire but need more time before purchasing.'],
-            ['Encourage Gifting and Repeat Buying', 'Package maintenance, gift wrapping, and occasion reminders into the customer experience.'],
-            ['Track Best Conversion Price Bands', 'Review which price ranges, styles, and materials sell fastest so you buy smarter.']
+            ['Specialize in Event Type or Market', 'Focus on weddings, corporate events, or social celebrations. Specialization builds expertise, reputation, and premium pricing power.'],
+            ['Build Trusted Vendor Networks', 'Develop relationships with reliable caterers, decorators, venues, and entertainers. Your network is your competitive advantage.'],
+            ['Create Tiered Service Packages', 'Offer planning, partial planning, and day-of coordination at different price points to capture different budget segments.'],
+            ['Capture Deposits and Milestone Payments', 'Structure payment terms that protect cash flow and reduce financial risk from cancellations or scope changes.'],
+            ['Document Events as Marketing Assets', 'Professional photos and videos of executed events become your portfolio and sales materials for future clients.'],
+            ['Build Repeat Business Through Relationships', 'Stay connected with clients for anniversaries, corporate annual events, or referrals to friends and family.'],
+            ['Negotiate Vendor Commissions', 'Earn referral fees or commissions from vendors you recommend while maintaining transparency with clients.'],
+            ['Systemize Planning Processes', 'Create checklists, timelines, and templates that ensure consistent quality and reduce planning stress for you and clients.'],
+            ['Expand Through Venue Partnerships', 'Become the preferred planner for specific venues, gaining access to their client flow in exchange for quality service.']
         ]
     ),
     strategy(
-        'travel',
-        'Travel Agency',
-        ['travel', 'tour', 'trip', 'holiday', 'vacation', 'visa', 'honeymoon', 'package'],
-        'This growth path is built around trust, itinerary clarity, and repeat travel planning.',
+        'petcare',
+        'Pet Care and Veterinary',
+        ['pet', 'veterinary', 'vet', 'animal', 'dog', 'cat', 'grooming', 'pet shop', 'kennel', 'pet care'],
+        'Pet care businesses grow through customer retention, preventive care programs, and building emotional connections with pet owners.',
         [
-            ['Specialize in a Travel Lane', 'Focus on domestic getaways, international tours, pilgrimages, luxury trips, or honeymoon packages first.'],
-            ['Package Itineraries Clearly', 'Present plans with day-by-day value, hotel quality, inclusions, and expected experience instead of vague summaries.'],
-            ['Reduce Buyer Anxiety', 'Answer common concerns around safety, budget, visa, and hidden costs before the customer asks.'],
-            ['Use Destination Content', 'Share destination guides, packing tips, and travel hacks so you attract buyers before they are ready to book.'],
-            ['Create Seasonal Campaigns', 'Align offers with vacations, long weekends, school holidays, and festival travel demand.'],
-            ['Build Referral and Group Plans', 'Encourage family trips, office outings, and friend groups with organizer-friendly package perks.'],
-            ['Sell Add-On Services', 'Upsell transfers, insurance, upgrades, local experiences, and photography to raise order value.'],
-            ['Maintain Trip Follow-Up', 'Check in before and after travel to improve reviews, referrals, and repeat bookings.'],
-            ['Measure Destination Profitability', 'Track which destinations, seasons, and package types bring the best margins and least friction.']
+            ['Build Preventive Care Membership Programs', 'Package regular check-ups, vaccinations, and preventive treatments into subscription models that create recurring revenue and better pet health outcomes.'],
+            ['Create Pet Parent Education Content', 'Share care tips, health information, and training advice. Educational content builds trust and positions you as the expert.'],
+            ['Optimize Appointment Scheduling', 'Remove friction from booking, send reminders, and create systems for follow-ups. Convenience drives loyalty in pet care.'],
+            ['Develop Retail and Product Revenue', 'Sell food, toys, supplements, and care products that complement your services. Product sales increase revenue per customer.'],
+            ['Build Emergency and After-Hours Services', 'Premium pricing for emergency care creates additional revenue while serving critical pet owner needs.'],
+            ['Create Multi-Pet Family Incentives', 'Offer discounts or package deals for families with multiple pets to increase customer lifetime value.'],
+            ['Partner with Breeders and Adoption Centers', 'Build relationships that provide consistent client flow from new pet owners who need ongoing care.'],
+            ['Invest in Pet Owner Experience', 'Create a welcoming environment, minimize wait times, and communicate clearly. Emotional pet owners choose providers based on experience quality.'],
+            ['Track Customer Lifetime Value by Service', 'Monitor which services and customer types generate the highest long-term value to inform marketing and service development.']
         ]
     ),
     strategy(
-        'interior',
-        'Interior and Home Decor',
-        ['interior', 'home decor', 'furniture', 'decor', 'modular kitchen', 'design studio', 'home styling'],
-        'This strategy focuses on visual trust, premium projects, and better conversion from inquiry to booking.',
+        'homeservices',
+        'Home Services',
+        ['plumbing', 'electrician', 'carpenter', 'painting', 'renovation', 'contractor', 'repair', 'maintenance', 'handyman'],
+        'Home service businesses scale through reputation, response speed, and building systems that generate consistent leads and referrals.',
         [
-            ['Pick a Signature Aesthetic', 'Own one design language such as modern luxury, compact homes, minimal elegance, or budget-smart interiors.'],
-            ['Show Before-and-After Outcomes', 'Let prospects see transformation clearly so your value feels tangible and worth the spend.'],
-            ['Package Design Phases', 'Break services into consultation, concept, execution, and styling so buyers understand the journey.'],
-            ['Use Room-Based Selling', 'Market kitchens, bedrooms, offices, or living rooms separately to capture intent more precisely.'],
-            ['Build Trust With Material Guidance', 'Explain finishes, durability, timelines, and maintenance in plain language that reduces risk.'],
-            ['Partner With Builders and Realtors', 'Secure lead sources upstream from people who already influence home decisions.'],
-            ['Create Moodboard-Led Consultations', 'Use visual discovery sessions that help the client feel understood quickly.'],
-            ['Upsell Styling and Maintenance', 'Offer decor sourcing, organizing, or refresh services after the main project ends.'],
-            ['Track Quote-to-Project Conversion', 'Review where prospects drop off so pricing, presentation, or scope can improve.']
+            ['Build Local SEO and Map Presence', 'Dominate local search for your service area through Google Business Profile optimization and review collection. Local visibility drives call volume.'],
+            ['Respond to Inquiries Immediately', 'Speed to response is the biggest driver of conversion. Automate initial responses and prioritize rapid follow-up.'],
+            ['Offer Upfront Transparent Pricing', 'Provide clear estimates before work begins to build trust and reduce price shopping. Transparency differentiates you in an industry known for surprises.'],
+            ['Build Preventive Maintenance Programs', 'Create recurring service packages for HVAC, plumbing, or electrical maintenance. Recurring revenue is more predictable than emergency call-outs.'],
+            ['Collect and Showcase Reviews', 'Systematically ask satisfied customers for Google reviews. Reputation is your primary sales asset in home services.'],
+            ['Create Service Membership Programs', 'Offer priority scheduling, discounts, or annual maintenance packages to increase customer lifetime value and retention.'],
+            ['Develop Property Manager Relationships', 'Build partnerships with landlords, property managers, and real estate agents for consistent B2B work.'],
+            ['Train for Upselling and Cross-Selling', 'Identify additional work during service calls and quote it professionally. In-person visits create natural upsell opportunities.'],
+            ['Track Lead Source ROI', 'Monitor which marketing channels generate the highest-quality leads at the lowest cost and optimize spend accordingly.']
         ]
     ),
-    strategy(
-        'electronics',
-        'Electronics and Mobile Shop',
-        ['electronics', 'mobile shop', 'phone', 'laptop', 'gadgets', 'accessories', 'repair'],
-        'This roadmap helps your electronics business compete on trust, accessories, and repeat service revenue.',
-        [
-            ['Lead With Category Authority', 'Be known for phones, accessories, laptops, repairs, or premium gadgets instead of a vague shop identity.'],
-            ['Display Trusted Recommendations', 'Guide customers to the right device by usage and budget, not just price tags.'],
-            ['Bundle High-Margin Add-Ons', 'Package covers, glass, earbuds, chargers, warranty, and setup support into every device sale.'],
-            ['Use Fast Demo Selling', 'Show speed, camera quality, storage, or battery benefits live to make decisions easier.'],
-            ['Promote Exchange and Upgrade Paths', 'Create an easy story for customers to upgrade rather than delay their purchase.'],
-            ['Sell Service Plans', 'Offer repairs, data transfer, cleaning, and maintenance as a dependable repeat-revenue layer.'],
-            ['Build Local Trust Content', 'Post stock arrivals, comparison videos, and quick problem-solving tips to stay top of mind.'],
-            ['Capture Repeat Customers', 'Use WhatsApp for restock alerts, accessory offers, and festival upgrade campaigns.'],
-            ['Track Profit by Product Mix', 'Know whether devices, accessories, financing, or repairs create the best overall margin.']
-        ]
-    ),
-    strategy(
-        'grocery',
-        'Grocery and Kirana',
-        ['grocery', 'kirana', 'supermarket', 'mart', 'provision store', 'daily needs'],
-        'This plan focuses on neighborhood loyalty, faster ordering, and larger basket sizes.',
-        [
-            ['Own a Local Convenience Promise', 'Stand for speed, freshness, trust, or hard-to-find items so your store becomes the default choice nearby.'],
-            ['Create a WhatsApp Ordering Channel', 'Let repeat households order quickly without visiting every time.'],
-            ['Push High-Frequency Essentials', 'Make milk, bread, snacks, staples, and cleaning products easy to reorder and easy to bundle.'],
-            ['Use Weekly Household Packs', 'Offer pre-built family grocery baskets to increase average order value and convenience.'],
-            ['Highlight Fresh and Premium Lines', 'Feature fruits, dairy, organic goods, or imported items that justify higher-margin selling.'],
-            ['Reward Neighborhood Loyalty', 'Give points, cashback, or special pricing to families who buy regularly.'],
-            ['Add Festival and Monthly Planning', 'Promote stock-up packs before festivals, salary cycles, and school reopenings.'],
-            ['Improve Delivery Discipline', 'Keep delivery windows tight and communication clear so nearby customers rely on you.'],
-            ['Track Repeat Basket Behavior', 'See which products trigger the biggest and most frequent orders so you manage stock smarter.']
-        ]
-    ),
-    strategy(
-        'clinic',
-        'Clinic and Healthcare',
-        ['clinic', 'doctor', 'dentist', 'physio', 'hospital', 'skin clinic', 'healthcare', 'medical'],
-        'This growth path is built around patient trust, retention, and a premium care experience.',
-        [
-            ['Specialize Your Public Message', 'Position around one clear need such as dental care, physiotherapy recovery, skin treatment, or family health.'],
-            ['Strengthen the First Contact', 'Make booking, directions, fees, and expected process easy to understand before the patient arrives.'],
-            ['Show Expertise With Education', 'Publish practical health content that demonstrates care quality without sounding promotional.'],
-            ['Improve Patient Experience', 'Reduce waiting friction and communicate the next steps clearly so visits feel organized and reassuring.'],
-            ['Create Follow-Up Protocols', 'Use reminders for reports, review visits, and ongoing treatment so patient outcomes and retention improve.'],
-            ['Encourage Review Growth', 'Collect ethical patient feedback and reviews to build local credibility.'],
-            ['Build Referral Relationships', 'Partner with nearby pharmacies, diagnostic centers, gyms, or specialists who can send aligned cases.'],
-            ['Package Preventive Care', 'Offer checkups, treatment plans, or wellness memberships that deepen long-term care.'],
-            ['Track Return Visits and Referrals', 'Measure how many patients come back and where your best patients originate.']
-        ]
-    ),
-    strategy(
-        'events',
-        'Event and Wedding Services',
-        ['event', 'wedding', 'planner', 'decoration', 'decorator', 'birthday planner', 'event management'],
-        'This strategy focuses on premium presentation, trust, and booking higher-value event packages.',
-        [
-            ['Own a Signature Event Style', 'Define whether you are known for luxury weddings, intimate decor, corporate events, or kids parties.'],
-            ['Show Visual Proof Fast', 'Lead with your strongest albums and highlight reels so clients instantly see execution quality.'],
-            ['Package Events Clearly', 'Present simple tiers around scale, decor, logistics, and add-ons so quoting becomes easier.'],
-            ['Create Consultation Scripts', 'Ask the right questions about guest count, mood, budget, and deadlines so planning feels expert-led.'],
-            ['Build Vendor Ecosystems', 'Strengthen relationships with photographers, makeup artists, venues, caterers, and DJs.'],
-            ['Use Occasion-Based Marketing', 'Push campaigns before wedding season, corporate calendar peaks, and major family celebration dates.'],
-            ['Add Premium Upsells', 'Offer welcome kits, special lighting, premium entry concepts, or content coverage to boost margins.'],
-            ['Collect Referral Momentum', 'Request reviews and referrals immediately after a successful event while excitement is highest.'],
-            ['Track Win Rate by Event Type', 'See which event categories close faster and deliver better margins so you focus correctly.']
-        ]
-    ),
-    strategy(
-        'pet',
-        'Pet Business',
-        ['pet', 'dog', 'cat', 'pet shop', 'grooming', 'pet food', 'pet care', 'veterinary'],
-        'This pet-business plan is built around trust, recurring care, and community-led growth.',
-        [
-            ['Define Your Pet Niche', 'Specialize in grooming, nutrition, accessories, daycare, training, or premium pet retail.'],
-            ['Build Emotional Trust', 'Speak to pet parents with care-first messaging that shows reliability and safety.'],
-            ['Offer Recurring Care Plans', 'Create grooming packages, food subscriptions, or wellness visits to increase retention.'],
-            ['Show Real Pet Stories', 'Use customer pets in content to build relatability and social proof.'],
-            ['Educate Through Content', 'Share breed tips, care routines, and product guidance so your business becomes a trusted advisor.'],
-            ['Create Community Moments', 'Host pet meetups, adoption support, or mini events that generate local visibility.'],
-            ['Bundle Smart Add-Ons', 'Pair grooming with accessories, food, or hygiene products to increase average sale value.'],
-            ['Capture Reminders Automatically', 'Send reminders for grooming cycles, vaccinations, or reorders so customers return on time.'],
-            ['Track Lifetime Value by Pet Parent', 'Measure recurring revenue and repeat behavior to see which services truly stick.']
-        ]
-    ),
-    strategy(
-        'handmade',
-        'Handmade and Gift Business',
-        ['handmade', 'gift', 'craft', 'resin', 'candles', 'art', 'custom gift', 'hamper'],
-        'This plan focuses on premium storytelling, occasion-based demand, and repeat gifting buyers.',
-        [
-            ['Choose a Signature Product Style', 'Lead with one memorable format such as hampers, resin gifts, candles, or personalized keepsakes.'],
-            ['Sell by Occasion', 'Market around birthdays, anniversaries, weddings, festivals, and corporate gifting instead of generic product posts.'],
-            ['Show the Making Process', 'Use behind-the-scenes content so the handcrafted value feels visible and worth the price.'],
-            ['Simplify Custom Orders', 'Use forms or templates that make personalization easy without long back-and-forth chats.'],
-            ['Create Tiered Gift Options', 'Offer entry, premium, and luxury versions so customers can buy at different budgets.'],
-            ['Improve Unboxing Appeal', 'Packaging should feel gift-ready the moment it arrives, with no extra work needed from the customer.'],
-            ['Partner for Gifting Demand', 'Work with event planners, HR teams, and boutiques that need regular custom gifting.'],
-            ['Use Repeat-Buyer Lists', 'Retarget past customers before major gifting seasons and personal milestones.'],
-            ['Track Best-Selling Themes', 'Review which products, colors, and occasions produce the strongest repeat and margin.']
-        ]
-    ),
-    strategy(
-        'ecommerce',
-        'Ecommerce and Online Store',
-        ['ecommerce', 'e-commerce', 'online store', 'shopify', 'amazon', 'flipkart', 'website store', 'online business'],
-        'This roadmap focuses on conversion rate, repeat orders, and stronger product positioning online.',
-        [
-            ['Sharpen Your Hero Offer', 'Make the homepage lead with one clear winning product or collection that earns attention fast.'],
-            ['Improve Product Page Clarity', 'Upgrade images, descriptions, proof, and FAQs so visitors understand why the product is worth buying.'],
-            ['Reduce Checkout Friction', 'Keep checkout simple and remove hesitation around shipping, returns, and payment trust.'],
-            ['Use Intent-Based Traffic', 'Focus on ads, creators, or search terms tied to buyers already looking for your product type.'],
-            ['Capture Abandoned Visitors', 'Use WhatsApp, email, or retargeting to recover shoppers who showed intent but left.'],
-            ['Drive Repeat Purchases', 'Set up reorder reminders, bundles, and post-purchase flows to increase customer lifetime value.'],
-            ['Launch Seasonal Drops', 'Use timed releases and limited editions to create urgency instead of always-on discounting.'],
-            ['Strengthen Social Proof', 'Highlight ratings, reviews, UGC, and customer photos across the buying journey.'],
-            ['Track Conversion by Source', 'Measure which channels bring profitable customers, not just traffic volume.']
-        ]
-    ),
-    strategy(
-        'legal',
-        'Legal Services',
-        ['lawyer', 'legal', 'advocate', 'law firm', 'attorney', 'legal services'],
-        'This legal-services roadmap focuses on trust, authority, and converting high-intent consultations.',
-        [
-            ['Pick Your Practice Focus', 'Lead with a clear area such as property, family, corporate, criminal, or startup legal work so your positioning feels stronger.'],
-            ['Build Trust Through Clarity', 'Explain your process, expected documents, and likely timelines in simple language that reduces client fear.'],
-            ['Own Search Intent', 'Optimize your Google profile, FAQs, and service pages around the exact legal queries clients search for.'],
-            ['Use Consultation Screening', 'Qualify leads by case type, urgency, and budget so your time stays focused on serious clients.'],
-            ['Publish Authority Content', 'Share short explainers on common legal problems so prospects see expertise before calling.'],
-            ['Create Referral Partnerships', 'Build ties with property agents, accountants, HR consultants, and business advisors who can send relevant work.'],
-            ['Standardize Client Communication', 'Use structured updates so clients feel informed and handled professionally throughout the matter.'],
-            ['Bundle Related Services', 'Offer document review, filing support, compliance checks, or retainer packages where relevant.'],
-            ['Track Case Source Quality', 'Review which lead channels bring the best clients, fees, and repeat referrals so your marketing stays disciplined.']
-        ]
-    ),
-    strategy(
-        'automobile',
-        'Automobile and Car Services',
-        ['car wash', 'car service', 'garage', 'automobile', 'auto', 'bike service', 'detailing', 'mechanic'],
-        'This vehicle-service strategy is built around repeat visits, trust, and higher-ticket service packages.',
-        [
-            ['Specialize in a Service Edge', 'Be known for detailing, repairs, bike servicing, quick maintenance, or premium diagnostics instead of trying to own everything equally.'],
-            ['Make Diagnosis Visible', 'Show customers the issue with photos, videos, or part explanations so repair trust rises immediately.'],
-            ['Package Routine Maintenance', 'Create service bundles for oil changes, cleaning, inspection, and basic replacements to increase repeat revenue.'],
-            ['Build Reminder Systems', 'Use WhatsApp reminders for servicing cycles, insurance, or maintenance checkups so customers come back on time.'],
-            ['Upsell Useful Add-Ons', 'Recommend coating, alignment, accessories, pickup-drop, or emergency support where it genuinely adds value.'],
-            ['Collect Before-and-After Proof', 'Show transformations from dirty, damaged, or poorly maintained vehicles to stronger finished results.'],
-            ['Partner With Local Fleets', 'Target taxis, delivery operators, offices, and rental owners who need recurring vehicle support.'],
-            ['Speed Up Delivery Experience', 'Keep promised completion times tight and communicate delays early so reliability becomes a competitive advantage.'],
-            ['Track Repeat Service Value', 'Measure how often each customer returns and which services create the best margin and loyalty.']
-        ]
-    ),
-    strategy(
-        'accounting',
-        'Accounting and Tax Consultancy',
-        ['accounting', 'accountant', 'ca', 'chartered accountant', 'tax', 'gst', 'bookkeeping', 'audit'],
-        'This accounting roadmap focuses on authority, retainers, and predictable client acquisition.',
-        [
-            ['Define a Strong Client Niche', 'Target one segment such as small businesses, salaried professionals, ecommerce sellers, or startups to sharpen your messaging.'],
-            ['Productize Core Services', 'Package GST filing, bookkeeping, tax planning, payroll, or audit support into clear monthly or annual offers.'],
-            ['Lead With Compliance Relief', 'Frame your value around saving time, reducing risk, and keeping clients penalty-free.'],
-            ['Build Deadline Campaigns', 'Use seasonal filing and compliance dates as natural points to acquire and re-engage clients.'],
-            ['Use Education-Based Marketing', 'Post practical tax tips and compliance updates that prove expertise without overwhelming people.'],
-            ['Create Referral Channels', 'Partner with lawyers, agencies, consultants, and local business communities that serve the same audience.'],
-            ['Push Retainer Relationships', 'Move one-time work into ongoing monthly finance support wherever possible.'],
-            ['Systemize Document Collection', 'Make submissions, reminders, and approvals easy so clients experience less friction.'],
-            ['Track Client Lifetime Value', 'Compare one-time clients versus retainers so you keep focusing on the most durable revenue base.']
-        ]
-    ),
-    strategy(
-        'laundry',
-        'Laundry and Dry Cleaning',
-        ['laundry', 'dry clean', 'dry cleaning', 'wash', 'ironing', 'steam press'],
-        'This laundry strategy focuses on repeat household demand, convenience, and local loyalty.',
-        [
-            ['Own a Convenience Promise', 'Stand for speed, pickup-drop, stain care, premium fabric handling, or subscription convenience.'],
-            ['Create Recurring Plans', 'Offer weekly or monthly family, hostel, and bachelor packages that turn one-offs into predictable revenue.'],
-            ['Promote Pickup and Delivery', 'Make collection and drop-off the default story in your marketing so the service feels effortless.'],
-            ['Segment by Customer Type', 'Run separate offers for families, offices, students, salons, and hotels if they matter in your area.'],
-            ['Build WhatsApp Reorders', 'Encourage customers to reorder with one message instead of forcing them through a slow process.'],
-            ['Use Quality Assurance Proof', 'Show fabric care, stain handling, and packaging quality so customers trust you with expensive garments.'],
-            ['Add Premium Services', 'Upsell shoe cleaning, curtain cleaning, blanket care, express delivery, or wedding wear treatment.'],
-            ['Partner Locally', 'Work with hostels, gyms, clinics, and apartment communities that can send repeat volume.'],
-            ['Track Repeat Frequency', 'Measure how often users reorder and which packages create the best margin and loyalty.']
-        ]
-    ),
-    strategy(
-        'home-services',
-        'Home Services and Repairs',
-        ['plumber', 'electrician', 'carpenter', 'ac repair', 'home service', 'repair service', 'technician'],
-        'This home-services roadmap is built around response speed, trust, and recurring local referrals.',
-        [
-            ['Choose a Service Specialty', 'Be known for plumbing, electrical, AC, appliance repair, or multi-service home maintenance with a clear promise.'],
-            ['Make Booking Frictionless', 'Let customers request help quickly through call or WhatsApp with time-slot clarity and price expectations.'],
-            ['Lead With Reliability', 'Show up on time, communicate clearly, and confirm visits because trust matters as much as skill in home services.'],
-            ['Use Local Search Visibility', 'Strengthen your Google presence, reviews, and service-area messaging so urgent buyers find you first.'],
-            ['Package Maintenance Plans', 'Offer annual or seasonal care packages for ACs, wiring checks, plumbing, or appliance upkeep.'],
-            ['Capture Proof and Reviews', 'Collect before-and-after photos and customer reviews after successful jobs to build social trust fast.'],
-            ['Partner With Residential Networks', 'Work with societies, property managers, builders, and interior firms that can send steady demand.'],
-            ['Upsell Preventive Work', 'Recommend maintenance and minor fixes that prevent bigger problems while adding real value.'],
-            ['Track Response-to-Booking Rate', 'Measure how quickly leads are answered and how often that turns into paid jobs.']
-        ]
-    ),
-    strategy(
-        'recruitment',
-        'Recruitment and Staffing',
-        ['recruitment', 'staffing', 'hiring', 'hr consultancy', 'placement', 'job consultancy'],
-        'This staffing strategy focuses on niche positioning, employer trust, and faster placements.',
-        [
-            ['Pick a Hiring Niche', 'Specialize in one area such as sales, tech, healthcare, hospitality, or blue-collar staffing to stand out.'],
-            ['Build Employer-Focused Messaging', 'Speak to speed, candidate quality, retention, and screening depth instead of vague hiring promises.'],
-            ['Create Candidate Pipelines', 'Continuously build talent lists before roles open so you are not sourcing from zero every time.'],
-            ['Qualify Client Roles Better', 'Use structured intake to understand urgency, compensation, non-negotiables, and culture fit before starting.'],
-            ['Show Placement Proof', 'Share anonymized success stories, fill times, and retention wins that build credibility with new clients.'],
-            ['Partner With Training Sources', 'Connect with colleges, bootcamps, institutes, and local communities that feed candidates.'],
-            ['Productize Hiring Support', 'Offer screening-only, full-cycle hiring, bulk hiring, or retained search packages depending on client type.'],
-            ['Keep Candidates Warm', 'Maintain regular communication so strong prospects do not disappear between interviews.'],
-            ['Track Fill Rate and Time to Close', 'Measure which roles, sectors, and client types produce the healthiest economics.']
-        ]
-    ),
-    strategy(
-        'logistics',
-        'Logistics and Courier',
-        ['logistics', 'courier', 'delivery service', 'transport', 'shipping', 'cargo', 'parcel'],
-        'This logistics roadmap focuses on reliability, route efficiency, and long-term business accounts.',
-        [
-            ['Define Your Delivery Lane', 'Choose local parcel, B2B distribution, ecommerce shipping, or specialized transport as your strongest offer.'],
-            ['Sell Reliability First', 'Make on-time delivery, tracking clarity, and package safety the core of your promise.'],
-            ['Target Repeat Shippers', 'Focus on sellers, pharmacies, offices, and wholesalers that need frequent movement instead of only one-off jobs.'],
-            ['Simplify Booking and Tracking', 'Make pickup requests, status updates, and proof of delivery easy for customers to access.'],
-            ['Price Around Value Bands', 'Use clear slabs for speed, weight, distance, or special handling so pricing feels understandable.'],
-            ['Build Route Efficiency', 'Cluster orders and service areas intelligently so margins improve without hurting delivery time.'],
-            ['Partner With Sellers', 'Create account-based offers for ecommerce stores, flower shops, labs, and retailers with recurring logistics needs.'],
-            ['Offer Premium Delivery Options', 'Add same-day, fragile handling, COD support, or scheduled slots where profitable.'],
-            ['Track Account Retention', 'Measure which customer types ship most frequently and stay longest so your sales effort stays focused.']
-        ]
-    ),
-    strategy(
-        'hardware',
-        'Hardware and Building Materials',
-        ['hardware', 'paint shop', 'cement', 'tiles', 'building materials', 'sanitary', 'plywood'],
-        'This hardware-store strategy is built around contractor loyalty, bulk orders, and product trust.',
-        [
-            ['Choose Your Core Category Edge', 'Be known for paint, plumbing materials, electricals, tiles, sanitary, or contractor supply depth.'],
-            ['Build Contractor Relationships', 'Focus on plumbers, builders, electricians, and renovators who generate repeat purchase volume.'],
-            ['Improve In-Store Recommendation Selling', 'Guide buyers clearly on quality, compatibility, and pricing so they buy with confidence.'],
-            ['Offer Bulk and Site Delivery', 'Make it easy for customers to place large orders and get materials delivered where they are needed.'],
-            ['Use Stock Availability as a Selling Point', 'Promote dependable inventory on key items that slow work when unavailable.'],
-            ['Add Cross-Sell Logic', 'Recommend complementary materials with every purchase so the basket becomes more complete and valuable.'],
-            ['Create Builder Loyalty Plans', 'Reward repeat contractors with preferential service, priority sourcing, or volume pricing.'],
-            ['Capture Urgent Demand Fast', 'Respond quickly to calls and WhatsApp requests because site work often depends on immediate supply.'],
-            ['Track Product Mix Margin', 'Know which categories, brands, and buyer types drive the best repeat business and gross profit.']
-        ]
-    ),
-    strategy(
-        'daycare',
-        'Daycare and Preschool',
-        ['daycare', 'preschool', 'play school', 'playschool', 'child care', 'kids school', 'nursery school'],
-        'This daycare roadmap focuses on parent trust, enrollment consistency, and a premium care experience.',
-        [
-            ['Lead With Safety and Care', 'Make supervision, hygiene, teacher quality, and child comfort the center of your message.'],
-            ['Differentiate Your Learning Style', 'Position around play-based learning, early academics, activity-rich care, or flexible daycare support.'],
-            ['Upgrade Parent Communication', 'Share simple daily updates, photos, or progress notes so families feel secure and connected.'],
-            ['Create Strong Tour Experiences', 'Use walk-throughs and trial interactions that help parents imagine their child fitting in happily.'],
-            ['Build Community Referrals', 'Encourage parent recommendations through trust-led referral programs and neighborhood visibility.'],
-            ['Use Occasion-Based Enrollment Pushes', 'Promote admissions ahead of school cycles, relocations, and return-to-work periods for parents.'],
-            ['Package Extended Services', 'Offer after-school support, transport, activity classes, or meal options where appropriate.'],
-            ['Show Real Classroom Energy', 'Share controlled glimpses of engagement, routine, and staff warmth to reduce hesitation.'],
-            ['Track Inquiry-to-Enrollment Rate', 'Measure where parents drop off so you can improve tours, pricing communication, or follow-up.']
-        ]
-    ),
-    strategy(
-        'software',
-        'Software and App Development',
-        ['software', 'app development', 'web development', 'saas', 'it services', 'tech company', 'developer'],
-        'This software-services strategy focuses on niche positioning, proof, and higher-value client work.',
-        [
-            ['Choose a Service Niche', 'Lead with SaaS builds, websites, mobile apps, automation, or business software instead of generic coding services.'],
-            ['Target a Buyer Vertical', 'Pick sectors like clinics, education, retail, or logistics so your case studies and messaging align.'],
-            ['Productize Delivery', 'Package discovery, MVP builds, maintenance, or retainers into clear scopes that reduce buyer confusion.'],
-            ['Sell Outcomes, Not Features', 'Frame your offer around speed, cost savings, automation, or revenue impact instead of technical jargon alone.'],
-            ['Show Working Proof', 'Use demos, screenshots, client stories, and mini case studies that prove you can ship reliably.'],
-            ['Build a Consistent Outreach Engine', 'Prospect through LinkedIn, email, founder communities, and referrals with tailored examples.'],
-            ['Add Ongoing Revenue Layers', 'Offer maintenance, hosting, analytics, or iteration retainers after the initial project closes.'],
-            ['Improve Proposal Speed', 'Send clear estimates and next steps quickly so warm leads do not drift toward slower competitors.'],
-            ['Track Win Rate by Project Type', 'Measure which services, industries, and deal sizes close fastest and produce the best margins.']
-        ]
-    ),
-    strategy(
-        'creator',
-        'Content Creator and Influencer',
-        ['content creator', 'creator', 'influencer', 'personal brand', 'creator business'],
-        'This creator roadmap focuses on niche clarity, audience trust, and converting attention into income.',
-        [
-            ['Define a Clear Creator Niche', 'Choose one lane such as motivation, fashion, finance, food, fitness, or business so your audience knows why to follow you.'],
-            ['Build a Repeatable Content Pillar System', 'Create three to five recurring content themes so your posting stays consistent and recognizable.'],
-            ['Sharpen Your Hook and Positioning', 'Make your bio, opening lines, and first few seconds instantly communicate what value people will get from you.'],
-            ['Turn Viewers Into Community', 'Push followers into WhatsApp, email, or close-friends style spaces where attention becomes more durable.'],
-            ['Design Clear Monetization Paths', 'Map brand deals, affiliate revenue, digital products, coaching, or memberships instead of relying on random inquiries.'],
-            ['Batch Content Production', 'Plan, record, and edit multiple posts in one session so consistency does not depend on daily motivation.'],
-            ['Strengthen Social Proof', 'Show milestones, testimonials, brand features, or audience wins so new viewers trust you faster.'],
-            ['Create Conversion Content', 'Mix discovery content with offer-led posts that naturally move people toward inquiry or purchase.'],
-            ['Track Revenue per Content Pillar', 'Measure which themes bring the most growth, leads, and sales so your effort stays focused.']
-        ]
-    ),
-    strategy(
-        'youtube',
-        'YouTube Creator',
-        ['youtube', 'youtuber', 'youtube channel', 'video channel'],
-        'This YouTube roadmap is built around stronger watch time, repeat viewers, and monetization depth.',
-        [
-            ['Own One Channel Promise', 'Make the channel easy to describe in one line so the right audience instantly understands why to subscribe.'],
-            ['Improve Packaging', 'Upgrade titles, thumbnails, and first 30 seconds because those drive most of your growth ceiling.'],
-            ['Create Series-Based Content', 'Use repeatable formats so viewers learn what to expect and return more often.'],
-            ['Balance Search and Browse Topics', 'Mix evergreen topics with high-interest timely videos so the channel grows from multiple directions.'],
-            ['Build Mid-Video Retention', 'Remove filler, tighten pacing, and open loops so viewers stay longer and watch more videos.'],
-            ['Push Viewer Journeys', 'Guide people from one video to the next using playlists, end screens, and topic clusters.'],
-            ['Add Revenue Beyond AdSense', 'Use sponsorships, affiliate links, products, or services so the business does not rely on platform payouts alone.'],
-            ['Repurpose Into Shorts and Clips', 'Turn long-form content into shorter discovery assets that feed the main channel.'],
-            ['Track Watch Time by Format', 'Measure which topics and structures hold attention best so your next videos are better bets.']
-        ]
-    ),
-    strategy(
-        'instagram-creator',
-        'Instagram Creator Brand',
-        ['instagram creator', 'instagram', 'reels creator', 'reels', 'ig creator'],
-        'This Instagram roadmap focuses on reach, repeat engagement, and converting profile visits into business.',
-        [
-            ['Clarify Your Profile Promise', 'Use your name, bio, highlights, and pinned posts to tell visitors exactly what you create and why it matters.'],
-            ['Choose Core Reel Formats', 'Pick a small set of repeatable reel styles so the account becomes easier to produce and easier to remember.'],
-            ['Improve Scroll-Stopping Hooks', 'Make the first second visually strong and the opening text immediately relevant to the target audience.'],
-            ['Build a Story Funnel', 'Use stories to deepen trust, collect replies, and warm followers toward links, DMs, or offers.'],
-            ['Create Save-and-Share Posts', 'Add carousels, checklists, and opinion-led posts that earn more distribution than pure lifestyle content.'],
-            ['Monetize Through Clear Offers', 'Present brand collaborations, affiliate picks, digital products, or services in a clean and visible way.'],
-            ['Use Creator Collaborations', 'Partner with adjacent creators to borrow trust and reach from aligned audiences.'],
-            ['Turn DMs Into Sales', 'Guide interested followers with simple scripts and next steps instead of informal back-and-forth chats.'],
-            ['Track Reach to Inquiry Conversion', 'Measure which content actually leads to DMs, clicks, and paid opportunities.']
-        ]
-    ),
-    strategy(
-        'podcast',
-        'Podcast',
-        ['podcast', 'podcaster', 'show host', 'audio show'],
-        'This podcast roadmap focuses on authority, listener loyalty, and monetization beyond pure audience size.',
-        [
-            ['Define the Show Angle', 'Make the show stand for one clear topic and point of view so the right audience sticks.'],
-            ['Improve Episode Packaging', 'Use stronger titles, descriptions, and cover art so each episode earns more starts.'],
-            ['Create Repeatable Episode Formats', 'Build consistency through interviews, solo lessons, case studies, or breakdown episodes.'],
-            ['Use Guest Strategy Intentionally', 'Invite guests who can bring reach, credibility, or a strong learning moment for listeners.'],
-            ['Repurpose Every Episode', 'Turn one recording into clips, quote posts, email summaries, and short videos.'],
-            ['Capture Listener Ownership', 'Move listeners into email, community, or private groups so the relationship survives platform shifts.'],
-            ['Sell Relevant Sponsorships', 'Pitch sponsors that fit the audience instead of chasing any brand willing to pay.'],
-            ['Offer Paid Extensions', 'Add workshops, premium episodes, consulting, or products that deepen the podcast business.'],
-            ['Track Listener Retention by Topic', 'Measure which themes and formats keep listeners engaged and coming back weekly.']
-        ]
-    ),
-    strategy(
-        'ugc',
-        'UGC Creator',
-        ['ugc creator', 'ugc', 'user generated content', 'brand content creator'],
-        'This UGC roadmap focuses on landing more brand deals, better retainers, and a more professional creator business.',
-        [
-            ['Specialize by Brand Type', 'Target beauty, food, apps, fashion, or home brands so your portfolio looks more relevant.'],
-            ['Build a Conversion Portfolio', 'Show only your strongest hooks, scripts, and ad-style creative so brands can imagine hiring you quickly.'],
-            ['Productize Your Deliverables', 'Package hooks, raw clips, edited videos, usage rights, and revisions into simple offers.'],
-            ['Prospect Consistently', 'Send personalized pitches to brands and agencies every week with relevant examples, not generic intros.'],
-            ['Improve Brief Interpretation', 'Turn vague brand asks into clear creative concepts so the process feels easier for clients.'],
-            ['Speed Up Delivery', 'Use templates and batching to keep turnaround fast without lowering quality.'],
-            ['Upsell Usage and Retainers', 'Charge properly for ad usage, whitelisting, monthly packages, or testing bundles.'],
-            ['Collect Performance Proof', 'Ask for metrics, testimonials, or results that show your content helps brands convert.'],
-            ['Track Win Rate by Niche', 'Measure which brand types and offer structures close fastest and pay best.']
-        ]
-    ),
-    strategy(
-        'video-editor',
-        'Video Editing and Post Production',
-        ['video editor', 'editing', 'post production', 'editor', 'reel editor', 'shorts editor'],
-        'This editing roadmap focuses on premium positioning, retainers, and faster creator or brand acquisition.',
-        [
-            ['Pick Your Editing Lane', 'Own short-form edits, YouTube storytelling, ad creatives, podcasts, or cinematic edits instead of vague editing services.'],
-            ['Build a Niche Reel', 'Show only the kind of edits you want more clients to buy.'],
-            ['Sell Speed and Outcome', 'Position around retention, conversion, or brand polish rather than only technical skill.'],
-            ['Create Package Tiers', 'Offer clear plans for volume, turnaround, revisions, and platform formats so buying becomes simpler.'],
-            ['Prospect With Samples', 'Reach out to creators and brands with relevant micro-audits or edit examples that prove fit.'],
-            ['Improve Client Onboarding', 'Standardize file collection, brand references, and delivery notes to save time on every project.'],
-            ['Push Retainer Relationships', 'Move one-off edits into monthly support where possible.'],
-            ['Build Referral Momentum', 'Ask happy clients for introductions to other creators, agencies, and founders who need content support.'],
-            ['Track Margin by Project Type', 'Measure which editing formats take the most time versus bring the best revenue.']
-        ]
-    ),
-    strategy(
-        'music-artist',
-        'Music Artist and Independent Music Brand',
-        ['music artist', 'musician', 'singer', 'rapper', 'music producer', 'artist brand'],
-        'This music-brand roadmap is built around audience loyalty, release momentum, and multiple income streams.',
-        [
-            ['Define the Artist Identity', 'Make your sound, visual style, and story feel clear enough that new listeners remember you quickly.'],
-            ['Build Release Campaign Systems', 'Plan teasers, snippets, behind-the-scenes clips, and launch-day pushes around every release.'],
-            ['Turn Songs Into Content Assets', 'Use one track to generate reels, acoustic cuts, lyric clips, and audience interaction moments.'],
-            ['Grow a Core Fan Community', 'Move loyal listeners into email, WhatsApp, Discord, or broadcast channels so they show up consistently.'],
-            ['Collaborate Strategically', 'Work with aligned artists and creators who can expand your reach without diluting your identity.'],
-            ['Create Monetization Layers', 'Add shows, fan clubs, merch, sync opportunities, lessons, or premium experiences beyond streaming.'],
-            ['Show the Human Story', 'Let fans see process, practice, and personality so attachment grows beyond the songs alone.'],
-            ['Build Local and Digital Presence', 'Balance online growth with live moments that deepen fandom and social proof.'],
-            ['Track Fan Response by Format', 'Measure which songs, clips, and campaigns create the most saves, shares, and revenue.']
-        ]
-    ),
-    strategy(
-        'gaming',
-        'Gaming and Live Streaming Creator',
-        ['gaming', 'streamer', 'streaming', 'twitch', 'gaming creator', 'live streamer'],
-        'This streaming roadmap focuses on community retention, stronger live sessions, and diversified creator income.',
-        [
-            ['Choose a Stream Identity', 'Stand for one game, one vibe, one skill angle, or one entertainment style so viewers know what to expect.'],
-            ['Improve Live Session Structure', 'Plan openings, big moments, audience interaction, and closing CTAs instead of going fully random.'],
-            ['Turn Streams Into Clip Machines', 'Extract highlights, reactions, wins, and funny moments into short-form discovery content.'],
-            ['Build Community Rituals', 'Use recurring schedules, inside jokes, challenges, and shout-outs that make viewers feel part of something.'],
-            ['Monetize Beyond Donations', 'Add memberships, sponsorships, affiliates, merch, coaching, or digital products where relevant.'],
-            ['Collaborate With Other Streamers', 'Share audiences through co-streams, matches, or challenge formats that create energy and reach.'],
-            ['Improve Viewer Conversion', 'Guide casual viewers toward follows, community spaces, and return visits instead of leaving engagement passive.'],
-            ['Use Event-Based Growth', 'Tie streams to updates, launches, tournaments, or community milestones that naturally drive spikes.'],
-            ['Track Returning Viewer Rate', 'Measure which streams bring repeat attendance and longest watch time so you refine the format.']
-        ]
-    ),
-    strategy(
-        'newsletter',
-        'Newsletter and Writer Brand',
-        ['newsletter', 'writer', 'substack', 'email writer', 'blogger', 'ghostwriter'],
-        'This writer-brand roadmap focuses on audience ownership, trust, and monetizing written expertise.',
-        [
-            ['Own a Clear Topic Position', 'Choose one angle such as startups, careers, lifestyle, finance, or storytelling so readers know what they are subscribing to.'],
-            ['Strengthen the Welcome Experience', 'Use a focused landing page and welcome emails that explain the value of staying subscribed.'],
-            ['Build Repeatable Content Columns', 'Create recurring series so publishing becomes easier and reader expectations become stronger.'],
-            ['Use Lead Magnets Smartly', 'Offer templates, guides, or checklists that attract the right subscribers rather than low-intent signups.'],
-            ['Monetize With Fit', 'Use sponsorships, paid issues, consulting, courses, or ghostwriting services that match audience needs.'],
-            ['Repurpose Into Social Distribution', 'Turn each issue into threads, carousels, reels, or quote posts that bring new readers in.'],
-            ['Segment the Audience', 'Separate casual readers from high-intent buyers so your offers feel more targeted.'],
-            ['Improve Referral Loops', 'Give readers reasons to forward, share, and recommend the newsletter consistently.'],
-            ['Track Open-to-Offer Conversion', 'Measure which topics and CTAs turn readers into revenue, not just opens.']
-        ]
-    ),
-    strategy(
-        'talent-management',
-        'Creator Management and Talent Agency',
-        ['creator management', 'talent management', 'influencer agency', 'creator agency', 'talent agency'],
-        'This talent-agency roadmap focuses on stronger creator positioning, repeat brand deals, and reliable operations.',
-        [
-            ['Define Your Creator Roster Niche', 'Represent a specific type of creator or audience segment so your agency becomes easier for brands to understand.'],
-            ['Package Talent Clearly', 'Present creator audiences, content strengths, and campaign fit in a clean, brand-friendly way.'],
-            ['Build Brand Prospect Lists', 'Maintain active target lists of agencies and brands that already spend in the niches you serve.'],
-            ['Improve Campaign Workflow', 'Standardize outreach, negotiation, briefs, approvals, and reporting so execution feels polished.'],
-            ['Protect Creator Positioning', 'Guide creators toward better content consistency so brand demand rises over time.'],
-            ['Sell Long-Term Partnerships', 'Push quarterly or recurring collaborations instead of only one-off campaigns.'],
-            ['Add Service Layers', 'Offer scripting, editing, strategy, or analytics support so your agency becomes more valuable to both sides.'],
-            ['Track Deal Quality', 'Measure not just deal count but average fee, repeat rate, and creator satisfaction.'],
-            ['Build Agency Credibility', 'Use campaign results, testimonials, and professional communication to make bigger brands comfortable buying.']
-        ]
-    ),
-    strategy(
-        'ai-automation',
-        'AI Automation Agency',
-        ['ai automation', 'automation agency', 'ai agency', 'automation business', 'workflow automation'],
-        'This AI-automation roadmap focuses on niche positioning, proof, and retainers built around measurable business outcomes.',
-        [
-            ['Pick a Clear Automation Niche', 'Target one client type such as clinics, real estate, ecommerce, or service businesses so your pitch feels concrete.'],
-            ['Sell a Result, Not a Tool', 'Frame the offer around saved time, faster lead response, or lower operating cost instead of only naming tools.'],
-            ['Package One Flagship Solution', 'Lead with one repeatable automation offer that is easy to explain, price, and deliver across similar businesses.'],
-            ['Build Demo-Based Selling', 'Show simple before-and-after workflows so prospects understand the value quickly.'],
-            ['Create Fast Discovery Calls', 'Use a tight audit process to find one painful manual task that you can fix fast.'],
-            ['Push Setup Plus Retainer', 'Charge for implementation first, then ongoing support, maintenance, and optimization.'],
-            ['Use Case Studies Aggressively', 'Document time saved, leads recovered, or manual effort removed so new prospects trust the work.'],
-            ['Partner With Agencies and Consultants', 'Work with marketers, CRMs, and business consultants who can feed you clients needing automation.'],
-            ['Track Profit by Automation Type', 'Measure which workflows sell fastest, deliver cleanest, and create the best recurring revenue.']
-        ]
-    ),
-    strategy(
-        'ai-consulting',
-        'AI Consulting and Strategy',
-        ['ai consultant', 'ai consulting', 'artificial intelligence consulting', 'ai strategy', 'ai advisor'],
-        'This AI-consulting roadmap is built around authority, premium advisory work, and downstream implementation revenue.',
-        [
-            ['Define the Advisory Angle', 'Position around AI adoption, AI operations, team enablement, or specific use cases instead of vague general consulting.'],
-            ['Educate the Market Clearly', 'Explain what AI can actually improve for a business so prospects move from curiosity to buying intent.'],
-            ['Use Audit-Led Entry Offers', 'Start with paid assessments that identify high-value AI opportunities inside the client business.'],
-            ['Build Vertical Expertise', 'Choose sectors like healthcare, retail, education, or services so your recommendations feel more credible.'],
-            ['Turn Strategy Into Roadmaps', 'Deliver clear phased plans that show where automation, content AI, and data workflows fit.'],
-            ['Add Implementation Partners', 'Use developer, operations, or automation partners so consulting can convert into larger delivery projects.'],
-            ['Publish High-Trust Content', 'Share sharp use cases, myths, and adoption lessons that position you as a serious operator.'],
-            ['Create Leadership Workshops', 'Offer team trainings and founder sessions that widen deal size and decision-maker access.'],
-            ['Track Advisory-to-Execution Conversion', 'Measure how often consulting work expands into implementation and recurring support.']
-        ]
-    ),
-    strategy(
-        'chatbot-dev',
-        'Chatbot and AI Assistant Development',
-        ['chatbot', 'ai assistant', 'bot development', 'customer support bot', 'whatsapp bot'],
-        'This chatbot roadmap focuses on clear use cases, trust, and recurring support revenue.',
-        [
-            ['Choose High-Intent Use Cases', 'Lead with support bots, lead qualification, booking help, or internal knowledge assistants instead of generic bots.'],
-            ['Sell Business Outcomes', 'Position your chatbot around faster replies, lead capture, or support cost reduction rather than novelty.'],
-            ['Build a Reusable Delivery Stack', 'Standardize your approach to prompts, knowledge bases, testing, and handoff so builds stay efficient.'],
-            ['Demo Real Conversations', 'Show believable example chats that prove the assistant can actually help users complete tasks.'],
-            ['Design Human Escalation', 'Make sure each assistant has a clean fallback path so businesses trust deployment.'],
-            ['Offer Optimization Retainers', 'Charge ongoing fees for prompt tuning, analytics, new flows, and knowledge updates.'],
-            ['Target Channel-Specific Buyers', 'Separate WhatsApp, website, and internal-assistant prospects because their needs differ.'],
-            ['Collect Conversion Proof', 'Measure lead capture, response time, and support deflection to make future sales easier.'],
-            ['Track Retention by Use Case', 'Compare which chatbot types stay active longest and produce the best margins.']
-        ]
-    ),
-    strategy(
-        'no-code',
-        'No-Code and Low-Code Builder',
-        ['no code', 'nocode', 'low code', 'bubble', 'webflow', 'zapier', 'make.com'],
-        'This no-code roadmap focuses on speed, productized delivery, and winning buyers who value execution over engineering complexity.',
-        [
-            ['Pick a Build Category', 'Own landing pages, MVP apps, internal tools, automations, or marketplaces so your positioning feels clear.'],
-            ['Sell Speed to Launch', 'Lead with how quickly you can help clients test or run something real rather than talking about the tools first.'],
-            ['Create Fixed-Scope Offers', 'Package common builds into clean tiers so leads can buy without long technical discussions.'],
-            ['Show Working Products', 'Use live demos and screenshots to prove you can ship useful outcomes fast.'],
-            ['Target Founder and SME Buyers', 'Focus on clients who need momentum quickly and do not want a long engineering cycle.'],
-            ['Add Growth and Maintenance Plans', 'Offer post-launch updates, automation support, and iteration retainers once the first build goes live.'],
-            ['Partner With Designers and Consultants', 'Combine with adjacent specialists who can bring projects without doing the build work themselves.'],
-            ['Use Build-in-Public Content', 'Share process clips and launch outcomes so prospects see your speed and thinking.'],
-            ['Track Scope Accuracy', 'Measure which project types stay profitable and which ones expand beyond healthy no-code boundaries.']
-        ]
-    ),
-    strategy(
-        'machine-learning',
-        'Machine Learning Services',
-        ['machine learning', 'ml engineer', 'ml services', 'predictive model', 'computer vision', 'nlp'],
-        'This ML-services roadmap is built around narrow positioning, strong proof, and high-trust delivery.',
-        [
-            ['Choose a Specific ML Use Case', 'Position around forecasting, classification, recommendation, NLP, or computer vision instead of broad ML claims.'],
-            ['Sell Business Impact First', 'Explain how the model helps reduce errors, improve decisions, or create revenue so the work feels commercial.'],
-            ['Use Data Audits as Entry Points', 'Start by assessing data quality and feasibility before promising complex model outcomes.'],
-            ['Build Case Study Depth', 'Show the business problem, data constraints, and measured result so prospects see real competence.'],
-            ['Target Data-Mature Buyers', 'Focus on companies that already collect enough usable data to benefit from ML work.'],
-            ['Package Pilots Before Large Rollouts', 'Offer smaller proof-of-concept projects that reduce buying risk and speed decisions.'],
-            ['Add Monitoring and Maintenance', 'Sell model upkeep, retraining, and performance tracking after deployment.'],
-            ['Collaborate With Product Teams', 'Work closely with the implementation side so models actually get used instead of staying theoretical.'],
-            ['Track Delivery Complexity vs Margin', 'Measure which ML project types are profitable and which ones carry too much custom risk.']
-        ]
-    ),
-    strategy(
-        'data-analytics',
-        'Data Analytics and Dashboard Services',
-        ['data analytics', 'analytics', 'dashboard', 'power bi', 'tableau', 'data analyst', 'reporting'],
-        'This analytics roadmap focuses on recurring reporting revenue, clarity, and decision-maker trust.',
-        [
-            ['Define the Reporting Promise', 'Lead with sales dashboards, operations reporting, finance visibility, or marketing analytics so the offer feels concrete.'],
-            ['Simplify the Business Story', 'Translate numbers into decisions and actions instead of overwhelming clients with too many charts.'],
-            ['Productize Dashboard Builds', 'Package setup, data cleanup, dashboard design, and monthly reporting into clear service tiers.'],
-            ['Target Teams With Messy Data', 'Go after businesses that already have data but cannot turn it into useful visibility.'],
-            ['Create Fast Audit Offers', 'Review current reporting pain points and highlight obvious visibility gaps before the larger sale.'],
-            ['Build Recurring Review Cycles', 'Offer monthly or weekly insight calls so the dashboard becomes part of management rhythm.'],
-            ['Show Decision Impact', 'Use examples where better reporting improved spend, sales, forecasting, or team accountability.'],
-            ['Partner With Finance and Ops Advisors', 'Work with consultants whose clients need cleaner data visibility.'],
-            ['Track Retainer Stickiness', 'Measure which reporting categories keep clients paying month after month.']
-        ]
-    ),
-    strategy(
-        'devops-cloud',
-        'DevOps and Cloud Services',
-        ['devops', 'cloud engineer', 'aws', 'azure', 'gcp', 'infrastructure', 'cloud services'],
-        'This cloud-services roadmap focuses on reliability, recurring support, and selling operational confidence.',
-        [
-            ['Choose a Service Wedge', 'Lead with deployments, cloud migration, infrastructure setup, CI/CD, or monitoring instead of vague DevOps messaging.'],
-            ['Sell Reliability and Speed', 'Position your work around uptime, release velocity, and fewer failures rather than only technical jargon.'],
-            ['Target Growing Tech Teams', 'Focus on startups and product teams that feel pain from manual deployments or fragile infrastructure.'],
-            ['Use Infrastructure Audits', 'Offer reviews that expose obvious cloud waste, deployment risk, and monitoring gaps.'],
-            ['Package Managed Support', 'Bundle alerts, maintenance, backups, security checks, and incident response into monthly retainers.'],
-            ['Document Process Clearly', 'Strong runbooks and handover materials make clients trust your operational maturity.'],
-            ['Create Migration Proof', 'Show examples of faster deploys, lower downtime, or lower cloud bills after your work.'],
-            ['Partner With Software Agencies', 'Become the infrastructure specialist behind teams that ship code but do not want ops complexity.'],
-            ['Track Support Margin', 'Know which service bundles create durable recurring revenue without constant firefighting.']
-        ]
-    ),
-    strategy(
-        'cybersecurity',
-        'Cybersecurity Services',
-        ['cybersecurity', 'security audit', 'penetration testing', 'infosec', 'vapt', 'security consultant'],
-        'This cybersecurity roadmap focuses on trust, specialized positioning, and high-value recurring protection work.',
-        [
-            ['Define a Security Niche', 'Specialize in audits, VAPT, awareness training, compliance, or cloud security so buyers understand your lane.'],
-            ['Lead With Risk Reduction', 'Explain how your work prevents downtime, financial loss, and compliance issues instead of sounding abstract.'],
-            ['Use Security Assessments as Entry Offers', 'Start with scoped audits that make hidden risks visible and create urgency.'],
-            ['Build Authority Carefully', 'Publish useful guidance and anonymized insights that show expertise without oversharing sensitive details.'],
-            ['Package Ongoing Security Support', 'Offer recurring checks, monitoring, policy updates, and training so revenue is not only project-based.'],
-            ['Target High-Risk Buyers', 'Focus on sectors or companies that already feel real pressure around trust and compliance.'],
-            ['Create Executive-Friendly Reporting', 'Make findings easy for founders and managers to understand and act on.'],
-            ['Partner With Tech Providers', 'Work with MSPs, cloud teams, and software vendors whose clients need stronger security help.'],
-            ['Track Assessment-to-Retainer Conversion', 'Measure how often one-time audits turn into longer-term security relationships.']
-        ]
-    ),
-    strategy(
-        'web-freelancer',
-        'Web Development Freelancer',
-        ['web developer', 'website developer', 'web freelancer', 'frontend developer', 'backend developer', 'full stack'],
-        'This web-freelancer roadmap focuses on positioning, faster closes, and turning one-off builds into repeat revenue.',
-        [
-            ['Pick a Client Type', 'Target coaches, local businesses, ecommerce brands, creators, or startups so your sales message gets sharper.'],
-            ['Productize Website Offers', 'Create fixed packages for landing pages, business sites, booking sites, or website refresh projects.'],
-            ['Lead With Business Value', 'Talk about more leads, better trust, faster speed, or improved conversion rather than only technical quality.'],
-            ['Use Fast Portfolio Proof', 'Show concise before-and-after examples that make your impact obvious within seconds.'],
-            ['Improve Inquiry Handling', 'Respond with a simple process, clear timeline, and rough budget range so leads do not stall.'],
-            ['Add Website Care Plans', 'Offer updates, backups, hosting coordination, and monthly tweaks after the initial launch.'],
-            ['Build Referral Loops', 'Ask each client for one introduction or testimonial while the project is still fresh.'],
-            ['Use Targeted Outreach', 'Reach out to businesses with weak websites and show one or two clear improvement opportunities.'],
-            ['Track Lead Source Profitability', 'Measure which channels and project types bring the smoothest work and best margin.']
-        ]
-    ),
-    strategy(
-        'ai-saas',
-        'AI SaaS Product',
-        ['ai saas', 'saas product', 'ai product', 'software startup', 'ai startup', 'b2b saas'],
-        'This AI-SaaS roadmap focuses on niche pain, product clarity, and recurring subscription growth.',
-        [
-            ['Define a Narrow Pain Point', 'Solve one expensive, frequent problem for one type of buyer instead of building a broad AI tool for everyone.'],
-            ['Clarify the Core Workflow', 'Make the product easy to explain in terms of the job it replaces or speeds up.'],
-            ['Use Fast Customer Discovery', 'Talk to target users constantly so the roadmap follows real pain instead of internal guesses.'],
-            ['Ship the Smallest Useful Product', 'Prioritize the shortest path to a valuable recurring workflow before adding advanced features.'],
-            ['Design Activation Carefully', 'Help new users reach their first meaningful result quickly so trials are more likely to convert.'],
-            ['Use Proof-Led Marketing', 'Show outputs, case studies, and quantified wins that make the product feel trustworthy and practical.'],
-            ['Build Expansion Revenue', 'Add seat growth, usage expansion, or premium workflows after the core subscription proves value.'],
-            ['Track Churn by Segment', 'Measure which user types stick, which ones leave fast, and why that happens.'],
-            ['Align Sales Motion to ACV', 'Use self-serve, demos, or founder-led sales depending on deal size and buyer complexity.']
-        ]
-    )
 ];
 
-analyzeBtn.addEventListener('click', generatePlan);
-businessInput.addEventListener('keypress', (event) => {
-    if (event.key === 'Enter') {
-        generatePlan();
-    }
-});
-backBtn.addEventListener('click', resetApp);
-
-async function generatePlan() {
+analyzeBtn.addEventListener('click', () => {
     const businessIdea = businessInput.value.trim();
 
     if (!businessIdea) {
@@ -911,22 +410,35 @@ async function generatePlan() {
         return;
     }
 
-    const matchedStrategy = findStrategy(businessIdea);
-
     heroSection.style.display = 'none';
-    results.classList.remove('active');
-    stepsContainer.innerHTML = '';
     loading.classList.add('active');
 
-    await runLoadingSequence([
-        'Reading your business profile...',
-        'Matching your category to the right growth track...',
-        `Building your ${matchedStrategy.label.toLowerCase()} roadmap...`
-    ]);
+    const loadingMessages = [
+        'Analyzing your business model...',
+        'Matching growth strategies...',
+        'Building your custom roadmap...',
+        'Finalizing recommendations...'
+    ];
+
+    runLoadingSequence(loadingMessages).then(() => {
+        runAnalysis(businessIdea);
+    });
+});
+
+backBtn.addEventListener('click', resetApp);
+
+businessInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        analyzeBtn.click();
+    }
+});
+
+function runAnalysis(businessIdea) {
+    const matchedStrategy = findStrategy(businessIdea);
 
     loading.classList.remove('active');
     results.classList.add('active');
-    resultNote.textContent = `${matchedStrategy.label} strategy matched. ${matchedStrategy.openingLine}`;
+    resultNote.textContent = `${matchedStrategy.label} growth strategy applied. ${matchedStrategy.openingLine}`;
 
     displaySteps(matchedStrategy.steps);
 }
@@ -1000,20 +512,20 @@ function createLockedStep() {
         <div class="step-number">Step 10</div>
         <div class="step-title">
             <span class="lock-icon">🔒</span>
-            The Growth Multiplier
+            The 10X Multiplier Strategy
         </div>
         <div class="step-description">
-            This final step contains the highest-leverage strategy tailored to your business.
+            This final step reveals the highest-leverage move specific to your business model—the one action that can create exponential rather than linear growth.
         </div>
         <div class="payment-section">
-            <div class="payment-text">Unlock the final strategy - ${escapeHtml(publicConfig.unlockPrice)}</div>
+            <div class="payment-text">Unlock Your Custom 10X Strategy - ${escapeHtml(publicConfig.unlockPrice)}</div>
             <div class="qr-code">
                 <img src="${escapeAttribute(publicConfig.qrCodeUrl)}" alt="Payment QR Code">
             </div>
             <div class="payment-instruction">
-                <strong>After completing the payment</strong>, send a screenshot of your plan on Instagram DM at ${escapeHtml(publicConfig.instagramHandle)} to receive your final personalized strategy.
+                <strong>After payment</strong>, send a screenshot of this plan to ${escapeHtml(publicConfig.instagramHandle)} on Instagram. You'll receive a personalized Step 10 strategy tailored to your specific business context within 24 hours.
                 <div class="personalization-note">
-                    Step 10 stays manual so you can deliver the final move personally in DM.
+                    The final strategy is delivered personally because the 10X move is different for every business depending on current resources, market position, and leverage points.
                 </div>
             </div>
         </div>
@@ -1026,7 +538,7 @@ function resetApp() {
     loading.classList.remove('active');
     stepsContainer.innerHTML = '';
     resultNote.textContent = '';
-    loadingText.textContent = 'Reading your business profile...';
+    loadingText.textContent = 'Analyzing your business model...';
     heroSection.style.display = 'block';
     businessInput.value = '';
     businessInput.focus();
