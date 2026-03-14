@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business 10X - Strategic Growth Framework</title>
-    <meta name="description" content="Transform your business with proven growth strategies. Get a custom 10X roadmap for your specific industry.">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap');
-
+ 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
+ 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #FFFBF0 0%, #FFF9E6 50%, #FFFEF8 100%);
             min-height: 100vh;
             display: flex;
@@ -23,23 +22,23 @@
             justify-content: center;
             padding: 40px 20px;
         }
-
+ 
         .container {
             max-width: 800px;
             width: 100%;
             text-align: center;
         }
-
+ 
         .hero {
             margin-bottom: 60px;
-            opacity: 0;
             animation: fadeIn 0.8s ease forwards;
         }
-
+ 
         @keyframes fadeIn {
+            from { opacity: 0; }
             to { opacity: 1; }
         }
-
+ 
         .title {
             font-family: 'Playfair Display', serif;
             font-size: 72px;
@@ -50,38 +49,33 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             margin-bottom: 20px;
-            text-shadow: 0 4px 20px rgba(255, 215, 0, 0.15);
             line-height: 1.1;
         }
-
+ 
         .subtitle {
             font-size: 20px;
             color: #8B7355;
             font-weight: 600;
-            letter-spacing: 0.3px;
             margin-bottom: 12px;
         }
-
+ 
         .tagline {
             font-size: 15px;
             color: #A89580;
             font-weight: 500;
             font-style: italic;
         }
-
+ 
         .input-section {
             margin-bottom: 80px;
-            opacity: 0;
-            animation: fadeIn 0.8s ease 0.2s forwards;
         }
-
+ 
         .input-container {
             position: relative;
-            width: 100%;
             max-width: 650px;
             margin: 0 auto;
         }
-
+ 
         .input-field {
             width: 100%;
             padding: 24px 150px 24px 36px;
@@ -90,36 +84,24 @@
             border: 2px solid #FFE5A0;
             border-radius: 60px;
             outline: none;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            background: linear-gradient(to right, #FFFFFF 0%, #FFFEF8 100%);
-            font-family: 'Inter', sans-serif;
+            transition: all 0.3s ease;
+            background: #FFFFFF;
             color: #2C2416;
-            letter-spacing: 0.3px;
             box-shadow: 0 2px 12px rgba(255, 215, 0, 0.08);
         }
-
+ 
         .input-field:focus {
             border-color: #FFD700;
-            background: #FFFFFF;
-            box-shadow: 0 6px 32px rgba(255, 215, 0, 0.25), 0 0 0 4px rgba(255, 215, 0, 0.1);
-            transform: translateY(-1px);
+            box-shadow: 0 6px 32px rgba(255, 215, 0, 0.25);
         }
-
-        .input-field::placeholder {
-            color: #C4A962;
-            font-weight: 500;
-            letter-spacing: 0.2px;
-        }
-
+ 
         .input-controls {
             position: absolute;
             right: 8px;
             top: 50%;
             transform: translateY(-50%);
-            display: flex;
-            align-items: center;
         }
-
+ 
         .analyze-btn {
             background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
             color: #2C2416;
@@ -129,33 +111,31 @@
             font-size: 16px;
             font-weight: 700;
             cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.3s ease;
             box-shadow: 0 4px 20px rgba(255, 165, 0, 0.35);
             letter-spacing: 1.2px;
             text-transform: uppercase;
-            font-family: 'Inter', sans-serif;
         }
-
+ 
         .analyze-btn:hover {
             background: linear-gradient(135deg, #FFC700 0%, #FF9500 100%);
             transform: translateY(-2px);
             box-shadow: 0 8px 28px rgba(255, 165, 0, 0.45);
         }
-
+ 
         .analyze-btn:active {
             transform: translateY(0);
-            box-shadow: 0 4px 16px rgba(255, 165, 0, 0.3);
         }
-
+ 
         .loading {
             display: none;
             margin: 60px 0;
         }
-
+ 
         .loading.active {
             display: block;
         }
-
+ 
         .loading-spinner {
             width: 48px;
             height: 48px;
@@ -165,25 +145,25 @@
             margin: 0 auto 24px;
             animation: spin 0.8s linear infinite;
         }
-
+ 
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
-
+ 
         .loading-text {
             font-size: 17px;
             color: #8B7355;
             font-weight: 600;
         }
-
+ 
         .results {
             display: none;
         }
-
+ 
         .results.active {
             display: block;
         }
-
+ 
         .results-header {
             font-family: 'Playfair Display', serif;
             font-size: 44px;
@@ -193,21 +173,16 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             margin-bottom: 18px;
-            letter-spacing: -1.2px;
         }
-
+ 
         .result-note {
-            min-height: 24px;
             margin-bottom: 40px;
             color: #6B5D4F;
             font-size: 15px;
             font-weight: 600;
             line-height: 1.6;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
         }
-
+ 
         .steps-container {
             display: flex;
             flex-direction: column;
@@ -215,7 +190,7 @@
             max-width: 750px;
             margin: 0 auto;
         }
-
+ 
         .step-card {
             background: #FFFFFF;
             border: 2px solid #FFE5A0;
@@ -224,26 +199,25 @@
             text-align: left;
             transition: all 0.3s ease;
             opacity: 0;
-            transform: translateY(20px);
-        }
-
-        .step-card.animate {
             animation: slideUp 0.5s ease forwards;
         }
-
+ 
         @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-
+ 
         .step-card:hover {
             border-color: #FFD700;
             box-shadow: 0 8px 30px rgba(255, 215, 0, 0.15);
-            transform: translateY(-2px);
         }
-
+ 
         .step-number {
             font-size: 13px;
             font-weight: 700;
@@ -252,77 +226,44 @@
             text-transform: uppercase;
             letter-spacing: 1.2px;
         }
-
+ 
         .step-title {
             font-size: 21px;
             font-weight: 700;
             color: #2C2416;
             margin-bottom: 12px;
-            font-family: 'Inter', sans-serif;
             line-height: 1.3;
         }
-
+ 
         .step-description {
             font-size: 15.5px;
             color: #5A4D3F;
             line-height: 1.7;
             font-weight: 500;
         }
-
+ 
         .locked-card {
             background: linear-gradient(135deg, #2C2416 0%, #3D3120 100%);
             border: 2px solid #D4A017;
             position: relative;
-            overflow: hidden;
         }
-
-        .locked-card::before {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700, #D4A017);
-            border-radius: 18px;
-            z-index: -1;
-            opacity: 0.4;
-            animation: pulse 2s ease-in-out infinite;
-            background-size: 200% 200%;
-        }
-
-        @keyframes pulse {
-            0%, 100% {
-                opacity: 0.4;
-                background-position: 0% 50%;
-            }
-            50% {
-                opacity: 0.6;
-                background-position: 100% 50%;
-            }
-        }
-
+ 
         .locked-card .step-number {
             color: #FFD700;
         }
-
+ 
         .locked-card .step-title {
             color: #FFFFFF;
             display: flex;
             align-items: center;
             gap: 12px;
         }
-
-        .lock-icon {
-            font-size: 24px;
-            filter: drop-shadow(0 2px 8px rgba(255, 215, 0, 0.5));
-        }
-
+ 
         .locked-card .step-description {
             color: #E5D5B7;
             margin-bottom: 32px;
         }
-
+ 
         .payment-section {
             background: rgba(212, 160, 23, 0.08);
             border-radius: 14px;
@@ -330,7 +271,7 @@
             margin-top: 22px;
             border: 1px solid rgba(255, 215, 0, 0.2);
         }
-
+ 
         .qr-code {
             background: #FFFFFF;
             padding: 22px;
@@ -340,22 +281,20 @@
             box-shadow: 0 8px 30px rgba(255, 215, 0, 0.4);
             border: 2px solid #FFD700;
         }
-
+ 
         .qr-code img {
             width: 230px;
             height: 230px;
             display: block;
-            object-fit: cover;
         }
-
+ 
         .payment-text {
             font-size: 19px;
             font-weight: 700;
             color: #FFD700;
             margin-bottom: 16px;
-            letter-spacing: 0.4px;
         }
-
+ 
         .payment-instruction {
             font-size: 14.5px;
             color: #FFF8E1;
@@ -364,23 +303,19 @@
             padding: 18px;
             background: rgba(255, 215, 0, 0.12);
             border-radius: 10px;
-            border: 1px solid rgba(255, 215, 0, 0.3);
         }
-
+ 
         .payment-instruction strong {
             color: #FFD700;
-            font-weight: 700;
         }
-
+ 
         .personalization-note {
             font-size: 13.5px;
             color: #D4C5A9;
             margin-top: 14px;
             font-style: italic;
-            font-weight: 500;
-            line-height: 1.6;
         }
-
+ 
         .back-btn {
             margin-top: 60px;
             background: transparent;
@@ -393,78 +328,38 @@
             cursor: pointer;
             transition: all 0.3s ease;
         }
-
+ 
         .back-btn:hover {
-            border-color: #FFA500;
-            color: #2C2416;
             background: rgba(255, 215, 0, 0.12);
-            transform: translateY(-1px);
-            box-shadow: 0 4px 16px rgba(255, 215, 0, 0.2);
+            color: #2C2416;
         }
-
+ 
+        .hidden {
+            display: none;
+        }
+ 
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-8px); }
+            75% { transform: translateX(8px); }
+        }
+ 
         @media (max-width: 768px) {
-            .title {
-                font-size: 52px;
-            }
-
-            .subtitle {
-                font-size: 18px;
-            }
-
-            .tagline {
-                font-size: 14px;
-            }
-
-            .input-field {
-                padding: 22px 140px 22px 28px;
-                font-size: 17px;
-            }
-
-            .analyze-btn {
-                padding: 14px 32px;
-                font-size: 15px;
-                letter-spacing: 1px;
-            }
-
-            .results-header {
-                font-size: 36px;
-            }
-
-            .step-card {
-                padding: 24px 26px;
-            }
-
-            .step-title {
-                font-size: 19px;
-            }
-
-            .qr-code img {
-                width: 190px;
-                height: 190px;
-            }
+            .title { font-size: 52px; }
+            .input-field { padding: 22px 140px 22px 28px; font-size: 17px; }
+            .analyze-btn { padding: 14px 32px; font-size: 15px; }
+            .results-header { font-size: 36px; }
         }
-
+ 
         @media (max-width: 480px) {
-            .title {
-                font-size: 42px;
-            }
-
-            .input-field {
-                padding: 22px 26px 90px 26px;
-            }
-
+            .title { font-size: 42px; }
+            .input-field { padding: 22px 26px; }
             .input-controls {
                 position: static;
                 transform: none;
-                justify-content: center;
                 margin-top: 18px;
-                width: 100%;
             }
-
-            .analyze-btn {
-                width: 100%;
-                padding: 18px 36px;
-            }
+            .analyze-btn { width: 100%; }
         }
     </style>
 </head>
@@ -476,7 +371,7 @@
                 <p class="subtitle">Strategic Growth Framework for Modern Businesses</p>
                 <p class="tagline">Proven strategies. Systematic execution. Exponential results.</p>
             </div>
-
+ 
             <div class="input-section">
                 <div class="input-container">
                     <input
@@ -492,12 +387,12 @@
                 </div>
             </div>
         </div>
-
+ 
         <div class="loading" id="loading">
             <div class="loading-spinner"></div>
-            <p class="loading-text" id="loadingText">Analyzing your business model...</p>
+            <p class="loading-text" id="loadingText">Analyzing your business...</p>
         </div>
-
+ 
         <div class="results" id="results">
             <h2 class="results-header">Your 10X Growth Roadmap</h2>
             <p class="result-note" id="resultNote"></p>
@@ -505,7 +400,258 @@
             <button class="back-btn" id="backBtn">Create New Analysis</button>
         </div>
     </div>
-
-    <script src="app.js"></script>
+ 
+    <script>
+        console.log('Business 10X App Starting...');
+        
+        // Configuration
+        const config = {
+            qrCodeUrl: 'my-qr.png',
+            instagramHandle: '@business10x2026',
+            unlockPrice: '₹499'
+        };
+ 
+        // Strategy data structure
+        const strategies = {
+            restaurant: {
+                label: 'Food and Restaurant',
+                keywords: ['restaurant', 'food', 'dhaba', 'cloud kitchen', 'meal', 'tiffin', 'catering', 'biryani', 'pizza', 'burger', 'cafe', 'eatery'],
+                opening: 'Restaurant growth is a game of frequency, margin mix, and owning a local radius before trying to scale.',
+                steps: [
+                    ['Own a Signature Hero Dish', 'Identify the one item that travels well, photographs beautifully, and creates word-of-mouth. Make it your brand anchor and optimize pricing, packaging, and presentation around this flagship product.'],
+                    ['Dominate Your Local Delivery Radius', 'Target a 3-5km zone and become the default choice through hyper-local SEO, Google reviews, and WhatsApp broadcast lists. Depth in one area beats shallow presence across a city.'],
+                    ['Fix Your Menu Economics', 'Audit contribution margin by dish. Remove low-margin, slow-moving items. Push high-margin items through staff incentives, menu design, and combo engineering.'],
+                    ['Engineer Repeat Order Triggers', 'Build subscription meal plans, family bundles, or office catering contracts. Make repeat ordering easier than deciding where to eat each time.'],
+                    ['Optimize for Off-Peak Revenue', 'Run targeted promotions during slow hours without training customers to expect discounts during peak times.'],
+                    ['Build a First-Party Customer List', 'Capture phone numbers at checkout for WhatsApp broadcasts. Own your customer data instead of renting visibility on aggregator platforms.'],
+                    ['Master Packaging as Marketing', 'Invest in packaging that protects food quality, reinforces brand memory, and encourages social sharing.'],
+                    ['Create Platform Independence', 'Use Zomato and Swiggy for discovery but drive repeat orders to your own channels.'],
+                    ['Track Unit Economics Religiously', 'Monitor food cost percentage, labor cost per order, and contribution margin by channel. Make decisions based on numbers, not hunches.']
+                ]
+            },
+            ecommerce: {
+                label: 'E-Commerce Store',
+                keywords: ['ecommerce', 'online store', 'shopify', 'amazon', 'online', 'selling online', 'web store', 'digital store'],
+                opening: 'E-commerce profitability comes from acquisition cost efficiency, conversion optimization, and maximizing lifetime value.',
+                steps: [
+                    ['Find Product-Market Fit', 'Launch with a focused product set and validate demand before expanding. Cash flow dies in unsold inventory.'],
+                    ['Master One Acquisition Channel', 'Choose between paid ads, SEO, or influencers and become exceptional at one before diversifying.'],
+                    ['Optimize for Conversion', 'A/B test product pages and checkout flow. Most stores leave 30-50% revenue on the table through poor conversion.'],
+                    ['Build Email and SMS Engine', 'Capture contacts and create automated sequences for cart abandonment and upsells.'],
+                    ['Increase Average Order Value', 'Use bundles, quantity discounts, and cross-sells. Small AOV improvements create massive profit increases.'],
+                    ['Engineer Repeat Purchases', 'Launch subscriptions, loyalty programs, or replenishment reminders. Customer acquisition is expensive.'],
+                    ['Reduce Return Rates', 'Clear product descriptions and customer photos reduce returns. Returns destroy margin.'],
+                    ['Expand Through Customer Data', 'Analyze purchase patterns to inform new product launches. Data-driven expansion beats intuition.'],
+                    ['Build Brand Equity', 'Create content and community that justifies premium pricing. Competing on price is a race to zero margin.']
+                ]
+            },
+            salon: {
+                label: 'Salon and Beauty',
+                keywords: ['salon', 'beauty', 'spa', 'makeup', 'hair', 'facial', 'nail', 'parlour', 'grooming'],
+                opening: 'Beauty businesses scale through recurring appointments, premium service packaging, and trust-building through transformations.',
+                steps: [
+                    ['Position Around Transformation', 'Lead with specific outcomes: bridal glow, hair recovery, or grooming confidence.'],
+                    ['Package Services into Programs', 'Bundle treatments into 4-week or 12-week programs for predictable revenue.'],
+                    ['Fill Low-Demand Slots Strategically', 'Offer weekday or off-peak specials without training customers to avoid peak times.'],
+                    ['Document Before-and-After Proof', 'Capture transformations with client permission and showcase them where prospects decide.'],
+                    ['Automate Rebooking at Checkout', 'Book the next appointment before the client leaves. Make rebooking part of checkout.'],
+                    ['Build Bridal and Event Pipelines', 'Partner with wedding planners and photographers. One bridal client brings a wedding party.'],
+                    ['Monetize Home-Care Products', 'Sell retail products that extend service results. Recommendations from the provider carry trust.'],
+                    ['Create VIP Membership Tiers', 'Offer priority booking, exclusive treatments, and bundled pricing to reward loyalty.'],
+                    ['Track Therapist Performance', 'Monitor which staff generate the highest rebooking rates and product attachment.']
+                ]
+            },
+            gym: {
+                label: 'Gym and Fitness',
+                keywords: ['gym', 'fitness', 'workout', 'zumba', 'yoga', 'pilates', 'training', 'crossfit', 'exercise'],
+                opening: 'Fitness businesses win through retention engineering, transformation marketing, and accountability systems.',
+                steps: [
+                    ['Own a Transformation Goal', 'Position your gym around fat loss, strength building, or beginner confidence.'],
+                    ['Engineer the First 30 Days', 'Design onboarding sequences that prevent drop-off. Most churn happens in the first month.'],
+                    ['Sell Transformation Programs', 'Offer 6-week or 12-week results-based programs. Programs justify premium pricing.'],
+                    ['Build Multi-Layer Accountability', 'Use coach check-ins, WhatsApp groups, and buddy systems. Emotional commitment drives consistency.'],
+                    ['Show Real Transformations', 'Post measurable progress with photos and stats. Social proof demonstrates your methodology works.'],
+                    ['Add Nutrition Coaching', 'Sell meal planning as premium add-ons. Results come from combined effort.'],
+                    ['Engineer Member Referrals', 'Run referral challenges with meaningful rewards. Your best members are your best acquisition channel.'],
+                    ['Monetize Merchandise', 'Sell branded gear, supplements, and specialty classes. Multiple revenue streams reduce dependence.'],
+                    ['Track Retention Metrics Weekly', 'Monitor attendance and cancellation patterns. Early signals let you intervene before members ghost.']
+                ]
+            },
+            default: {
+                label: 'General Business',
+                keywords: [],
+                opening: 'This comprehensive growth path is designed to transform any business through systematic execution and market positioning.',
+                steps: [
+                    ['Clarify Your Market Position', 'Define the exact transformation you deliver and which customer segment values it most. Position yourself as the only logical choice.'],
+                    ['Engineer Your Signature Offer', 'Package your core deliverable into a named, priced, and predictable system that customers can buy without hesitation.'],
+                    ['Build a Predictable Lead System', 'Commit to one primary acquisition channel and reverse-engineer daily lead targets. Master consistency before adding complexity.'],
+                    ['Optimize the Conversion Path', 'Map every touchpoint from stranger to buyer. Fix the leaks in awareness, consideration, decision, and purchase.'],
+                    ['Install a Retention Engine', 'Design post-purchase sequences that turn customers into repeat buyers. The fastest path to revenue growth is selling more to people who already trust you.'],
+                    ['Create Scalable Systems', 'Document, delegate, and automate the repetitive parts of delivery, operations, and customer support.'],
+                    ['Leverage Social Proof Strategically', 'Position testimonials, case studies, and results where they influence purchase decisions.'],
+                    ['Expand Customer Lifetime Value', 'Add complementary offers, upsells, cross-sells, and continuity programs.'],
+                    ['Build Distribution Leverage', 'Identify who already has your ideal customers and structure partnerships that multiply your reach.']
+                ]
+            }
+        };
+ 
+        // Find best matching strategy
+        function findStrategy(input) {
+            const text = input.toLowerCase();
+            console.log('Analyzing:', text);
+            
+            let bestMatch = strategies.default;
+            let bestScore = 0;
+ 
+            for (const [key, strategy] of Object.entries(strategies)) {
+                if (key === 'default') continue;
+                
+                let score = 0;
+                strategy.keywords.forEach(keyword => {
+                    if (text.includes(keyword)) {
+                        score += keyword.length * 2;
+                    }
+                });
+ 
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestMatch = strategy;
+                }
+            }
+ 
+            console.log('Matched:', bestMatch.label);
+            return bestMatch;
+        }
+ 
+        // Display steps
+        function displaySteps(steps) {
+            const container = document.getElementById('stepsContainer');
+            container.innerHTML = '';
+ 
+            steps.forEach(([title, desc], index) => {
+                setTimeout(() => {
+                    const card = document.createElement('div');
+                    card.className = 'step-card';
+                    card.innerHTML = `
+                        <div class="step-number">Step ${index + 1}</div>
+                        <div class="step-title">${title}</div>
+                        <div class="step-description">${desc}</div>
+                    `;
+                    container.appendChild(card);
+                }, index * 100);
+            });
+ 
+            // Add locked step
+            setTimeout(() => {
+                const lockedCard = document.createElement('div');
+                lockedCard.className = 'step-card locked-card';
+                lockedCard.innerHTML = `
+                    <div class="step-number">Step 10</div>
+                    <div class="step-title">
+                        <span>🔒</span>
+                        The 10X Multiplier Strategy
+                    </div>
+                    <div class="step-description">
+                        This final step reveals the highest-leverage move specific to your business model—the one action that can create exponential rather than linear growth.
+                    </div>
+                    <div class="payment-section">
+                        <div class="payment-text">Unlock Your Custom 10X Strategy - ${config.unlockPrice}</div>
+                        <div class="qr-code">
+                            <img src="${config.qrCodeUrl}" alt="Payment QR Code">
+                        </div>
+                        <div class="payment-instruction">
+                            <strong>After payment</strong>, send a screenshot of this plan to ${config.instagramHandle} on Instagram. You'll receive a personalized Step 10 strategy tailored to your specific business context within 24 hours.
+                            <div class="personalization-note">
+                                The final strategy is delivered personally because the 10X move is different for every business.
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(lockedCard);
+            }, steps.length * 100);
+        }
+ 
+        // Loading sequence
+        async function showLoading() {
+            const messages = [
+                'Reading your business profile...',
+                'Analyzing market position...',
+                'Matching growth frameworks...',
+                'Building strategic roadmap...'
+            ];
+ 
+            const loadingText = document.getElementById('loadingText');
+            for (const msg of messages) {
+                loadingText.textContent = msg;
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
+        }
+ 
+        // Main analyze function
+        async function analyze() {
+            const input = document.getElementById('businessInput');
+            const value = input.value.trim();
+ 
+            if (!value) {
+                input.style.animation = 'shake 0.3s';
+                setTimeout(() => input.style.animation = '', 300);
+                input.focus();
+                return;
+            }
+ 
+            console.log('Starting analysis for:', value);
+ 
+            // Show loading
+            document.getElementById('heroSection').classList.add('hidden');
+            document.getElementById('loading').classList.add('active');
+ 
+            await showLoading();
+ 
+            // Get strategy
+            const strategy = findStrategy(value);
+ 
+            // Show results
+            document.getElementById('loading').classList.remove('active');
+            document.getElementById('results').classList.add('active');
+            document.getElementById('resultNote').textContent = 
+                `${strategy.label} growth strategy applied. ${strategy.opening}`;
+ 
+            displaySteps(strategy.steps);
+        }
+ 
+        // Reset function
+        function reset() {
+            console.log('Resetting...');
+            document.getElementById('results').classList.remove('active');
+            document.getElementById('loading').classList.remove('active');
+            document.getElementById('heroSection').classList.remove('hidden');
+            document.getElementById('businessInput').value = '';
+            document.getElementById('stepsContainer').innerHTML = '';
+            document.getElementById('businessInput').focus();
+        }
+ 
+        // Event listeners
+        document.getElementById('analyzeBtn').addEventListener('click', function() {
+            console.log('Button clicked!');
+            analyze();
+        });
+ 
+        document.getElementById('backBtn').addEventListener('click', reset);
+ 
+        document.getElementById('businessInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                console.log('Enter pressed!');
+                analyze();
+            }
+        });
+ 
+        // Auto-focus on load
+        window.addEventListener('load', function() {
+            document.getElementById('businessInput').focus();
+            console.log('App ready!');
+        });
+ 
+        console.log('Event listeners attached!');
+    </script>
 </body>
 </html>
